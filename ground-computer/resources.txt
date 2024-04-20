@@ -1,0 +1,1 @@
+Capturing Model Rocket Telemetry Using a Raspberry Pi Zero - https://johnjonesfour.com/2020/10/03/model-rocket-telemetry-part-1/
