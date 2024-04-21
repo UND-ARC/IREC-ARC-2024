@@ -536,6 +536,401 @@
 				)
 			)
 		)
+		(symbol "CustomComponents:S2B-PH-K-SLFSN"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "S2B-PH-K-SLFSN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CONN_S2B-PH-K-S_JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "S2B-PH-K-SLFSN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "S2B-PH-K-S(LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_S2B-PH-K-S_JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "S2B-PH-K-SLFSN_1_1"
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "S2B-PH-K-SLFSN_1_2"
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CustomComponents:XT60PW-M"
 			(pin_names
 				(offset 1.016)
@@ -2709,293 +3104,6 @@
 				)
 			)
 		)
-		(symbol "Device:Thermocouple_Block"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TC"
-				(at -3.048 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Thermocouple_Block"
-				(at -5.08 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -14.605 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -14.605 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Thermocouple with isothermal block"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "thermocouple temperature sensor cold junction"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PIN?ARRAY* bornier* *Terminal?Block* Thermo*Couple*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Thermocouple_Block_0_1"
-				(circle
-					(center -1.778 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 -1.016) (xy -3.048 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 -0.508) (xy -2.54 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0) (xy -2.032 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.508) (xy -1.524 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 1.016) (xy -1.016 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.524) (xy -0.508 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.032) (xy 0 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.508 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.016 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -2.54) (xy 0.762 -2.54) (xy -3.048 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.016 3.556)
-					(end 3.048 -3.556)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Thermocouple_Block_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -4559,28 +4667,10 @@
 		(uuid "52d72734-d6ab-4920-9544-62a3663e6a44")
 	)
 	(junction
-		(at 39.37 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53c0ee0b-56d3-4637-a888-9e7cec3e79b7")
-	)
-	(junction
 		(at 157.48 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ae03916-37be-4d3f-bc1c-d6588ed227bf")
-	)
-	(junction
-		(at 36.83 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d4de3fc-ddb2-4430-86a4-a216b926200d")
-	)
-	(junction
-		(at 36.83 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60d2633b-1a77-42fa-ba91-71290f5731d6")
 	)
 	(junction
 		(at 41.91 95.25)
@@ -4625,12 +4715,6 @@
 		(uuid "83ce9fc8-60e2-47cc-a794-3f5b235ba1ff")
 	)
 	(junction
-		(at 39.37 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88cf1f96-addf-4325-9a48-89411a4a6aac")
-	)
-	(junction
 		(at 116.84 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4665,12 +4749,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a64d2c96-4dbc-4efa-aae9-12bc55bdb08c")
-	)
-	(junction
-		(at 36.83 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a90fe3d8-d018-4746-890e-ec7292785932")
 	)
 	(junction
 		(at 93.98 55.88)
@@ -4731,12 +4809,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de18a599-160d-44d1-acda-0c54167d9225")
-	)
-	(junction
-		(at 39.37 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5495ea2-8027-452d-a351-54b69444c9fd")
 	)
 	(junction
 		(at 267.97 142.24)
@@ -4988,16 +5060,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 127) (xy 36.83 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2678bfec-4c00-46a7-b677-517c1667466e")
-	)
-	(wire
-		(pts
 			(xy 41.91 95.25) (xy 50.8 95.25)
 		)
 		(stroke
@@ -5005,16 +5067,6 @@
 			(type default)
 		)
 		(uuid "286c1d45-3989-4596-9b9f-eeb18254e7e2")
-	)
-	(wire
-		(pts
-			(xy 39.37 88.9) (xy 39.37 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "289b390c-36f3-493d-a6cc-d5f982b2be52")
 	)
 	(wire
 		(pts
@@ -5218,6 +5270,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 130.81) (xy 35.56 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db4f9be-7d12-4018-9f31-e723125cde9d")
+	)
+	(wire
+		(pts
 			(xy 74.93 137.16) (xy 71.12 137.16)
 		)
 		(stroke
@@ -5278,33 +5340,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 160.02) (xy 39.37 166.37)
+			(xy 35.56 166.37) (xy 35.56 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "691dc124-7d5e-4379-b09f-8bac584b8108")
-	)
-	(wire
-		(pts
-			(xy 35.56 166.37) (xy 35.56 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3a551d-2033-4ec9-bab6-d6bc05e4b70b")
-	)
-	(wire
-		(pts
-			(xy 36.83 160.02) (xy 39.37 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "723305a2-c9bf-4edd-a74f-deba10bd7cdd")
 	)
 	(wire
 		(pts
@@ -5315,16 +5357,6 @@
 			(type default)
 		)
 		(uuid "73c35682-2839-447d-b4d8-3c3329f7dc21")
-	)
-	(wire
-		(pts
-			(xy 35.56 130.81) (xy 35.56 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7427db4a-8a75-4e0e-b7c4-0825db844d07")
 	)
 	(wire
 		(pts
@@ -5368,7 +5400,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 138.43) (xy 35.56 137.16)
+			(xy 35.56 135.89) (xy 35.56 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5388,7 +5420,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 138.43) (xy 41.91 138.43)
+			(xy 35.56 138.43) (xy 41.91 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5398,7 +5430,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 91.44) (xy 36.83 102.87)
+			(xy 35.56 100.33) (xy 35.56 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5435,16 +5467,6 @@
 			(type default)
 		)
 		(uuid "80e54b60-6db7-429e-a044-3f27daec4196")
-	)
-	(wire
-		(pts
-			(xy 39.37 166.37) (xy 41.91 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81a77ed0-fbba-4e83-81e1-2d26c24f0cdf")
 	)
 	(wire
 		(pts
@@ -5488,16 +5510,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 166.37) (xy 39.37 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83bb0279-63f0-4b45-a93e-5b062aa60fcc")
-	)
-	(wire
-		(pts
 			(xy 134.62 24.13) (xy 133.35 24.13)
 		)
 		(stroke
@@ -5538,16 +5550,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 95.25) (xy 39.37 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "897fdb4b-b481-4963-bc93-ecadac56c394")
-	)
-	(wire
-		(pts
 			(xy 133.35 180.34) (xy 134.62 180.34)
 		)
 		(stroke
@@ -5578,16 +5580,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 102.87) (xy 41.91 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e04789-00d7-45cc-b65b-7e70d6ffb500")
-	)
-	(wire
-		(pts
 			(xy 134.62 179.07) (xy 134.62 180.34)
 		)
 		(stroke
@@ -5608,13 +5600,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 124.46) (xy 39.37 124.46)
+			(xy 35.56 166.37) (xy 41.91 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3f29013-1b6d-4d64-aac2-e6962ea604f7")
+		(uuid "a0225301-8afe-4723-a12d-3784eede3d4f")
 	)
 	(wire
 		(pts
@@ -5638,7 +5630,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 130.81) (xy 41.91 130.81)
+			(xy 35.56 130.81) (xy 41.91 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5688,16 +5680,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 130.81) (xy 39.37 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1c568ca-3187-4fd2-b1c7-dd5eaf203130")
-	)
-	(wire
-		(pts
 			(xy 194.31 35.56) (xy 194.31 38.1)
 		)
 		(stroke
@@ -5708,17 +5690,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 95.25) (xy 41.91 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3682105-7996-45a2-8bef-0d028587a2da")
-	)
-	(wire
-		(pts
-			(xy 36.83 162.56) (xy 36.83 173.99)
+			(xy 35.56 171.45) (xy 35.56 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5758,16 +5730,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 88.9) (xy 39.37 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c66aed13-2453-4f5e-8b25-c3f739cdac60")
-	)
-	(wire
-		(pts
 			(xy 265.43 132.08) (xy 267.97 132.08)
 		)
 		(stroke
@@ -5788,7 +5750,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 173.99) (xy 36.83 173.99)
+			(xy 35.56 173.99) (xy 41.91 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5818,23 +5780,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 95.25) (xy 35.56 96.52)
+			(xy 35.56 95.25) (xy 35.56 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "da825a0c-743c-4bc8-940b-7abc2c516077")
-	)
-	(wire
-		(pts
-			(xy 39.37 124.46) (xy 39.37 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db843d50-5ac1-4bf0-8c6c-97d10df8662a")
 	)
 	(wire
 		(pts
@@ -5865,16 +5817,6 @@
 			(type default)
 		)
 		(uuid "dd7079d7-fa19-458c-a5b2-18a27e5837e0")
-	)
-	(wire
-		(pts
-			(xy 35.56 173.99) (xy 35.56 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddb99bf3-5189-44d0-9ad8-bc334ad0ce40")
 	)
 	(wire
 		(pts
@@ -5948,23 +5890,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 138.43) (xy 36.83 138.43)
+			(xy 35.56 95.25) (xy 41.91 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef7d6ac9-dff3-4d64-883a-dd1be9cb8c1b")
-	)
-	(wire
-		(pts
-			(xy 35.56 102.87) (xy 35.56 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1b08ae0-2920-4622-86e6-b44aee552ede")
+		(uuid "f33c318f-7dbe-42b6-a3dc-5546683eda19")
 	)
 	(wire
 		(pts
@@ -5978,17 +5910,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 173.99) (xy 41.91 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f509b6d5-8029-4fb3-a670-43cd88d80b00")
-	)
-	(wire
-		(pts
-			(xy 35.56 102.87) (xy 36.83 102.87)
+			(xy 35.56 102.87) (xy 41.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6043,7 +5965,7 @@
 		(uuid 8767800c-b827-4aeb-b2af-93ab81888059)
 	)
 	(rectangle
-		(start 16.51 15.24)
+		(start 15.24 15.24)
 		(end 66.04 66.04)
 		(stroke
 			(width 0)
@@ -6136,7 +6058,7 @@
 	)
 	(text "2S LiPo (7.4V)"
 		(exclude_from_sim no)
-		(at 17.78 23.114 0)
+		(at 16.256 23.368 0)
 		(effects
 			(font
 				(size 2 2)
@@ -6169,7 +6091,7 @@
 		)
 		(uuid "68ed4961-3191-49d8-8a37-752ad5779eb0")
 	)
-	(text "Battery Voltage Range\nSingle: 3V-4.2V\nDouble: 6V-8.4V"
+	(text "Voltage Range\nSingle: 3V-4.2V\nDouble: 6V-8.4V"
 		(exclude_from_sim no)
 		(at 65.278 23.622 0)
 		(effects
@@ -6936,76 +6858,6 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 36.83 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15370b13-fe04-4460-a250-f84ba53efe6a")
-		(property "Reference" "J5"
-			(at 39.37 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 39.37 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CustomFootprintLib:TERMBLOCK_OSTTE020104_3_5MM"
-			(at 36.83 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec611ee9-7b4c-4947-bb0e-144041a24ece")
-		)
-		(pin "1"
-			(uuid "c9c07cf4-4376-417a-bc42-bb5fca08316f")
-		)
-		(instances
-			(project "IREC_HeatTransfer_Payload"
-				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8172,7 +8024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 167.64 168.91 0)
 			(effects
 				(font
@@ -8826,74 +8678,6 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 31.75 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d920afa-0327-42c6-ae55-289707578659")
-		(property "Reference" "J2"
-			(at 31.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 31.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CustomFootprintLib:TERMBLOCK_OSTTE020104_3_5MM"
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1e613482-b7fb-4688-a969-3d2f8e1e9824")
-		)
-		(pin "1"
-			(uuid "9b40fc98-3141-4198-a8b7-4cbe54502879")
-		)
-		(instances
-			(project "IREC_HeatTransfer_Payload"
-				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10027,7 +9811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 167.64 184.15 0)
 			(effects
 				(font
@@ -11122,6 +10906,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 30.48 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2b97dfb-6470-4f3a-bafe-1e26be90ea8a")
+		(property "Reference" "J2"
+			(at 30.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 30.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CustomFootprintLib:TERMBLOCK_OSTTE020104_3_5MM"
+			(at 30.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4be86f52-0af2-4fcc-9485-fe41f006bc33")
+		)
+		(pin "1"
+			(uuid "5e6b9ffd-dad5-44f4-a04d-e11201c03095")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CustomComponents:S2B-PH-K-SLFSN")
+		(at 31.75 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b30d9f4c-89d1-4ace-9426-83c02b21e632")
+		(property "Reference" "J5"
+			(at 45.72 54.6099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-PH-K-SLFSN"
+			(at 45.72 57.1499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONN_S2B-PH-K-S_JST"
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "S2B-PH-K-SLFSN"
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec6656de-cefa-4a3b-9c68-f24b7fd0d946")
+		)
+		(pin "2"
+			(uuid "ecb3ea27-10b4-4d9a-a70e-b406eb2ca645")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 60.96 109.22 0)
 		(unit 1)
@@ -11182,73 +11106,6 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermocouple_Block")
-		(at 30.48 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b736a4a5-860d-46aa-9b6d-d0f0d033d0e7")
-		(property "Reference" "TC2"
-			(at 30.48 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Thermocouple_Block"
-			(at 30.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CustomFootprintLib:PCC-SMP-K"
-			(at 15.875 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 15.875 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thermocouple with isothermal block"
-			(at 30.48 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4b6fbb1c-8d88-47db-94ab-31ec85d8633f")
-		)
-		(pin "1"
-			(uuid "9d1a9342-407b-4c1e-9fe4-7e8562846f7f")
-		)
-		(instances
-			(project "IREC_HeatTransfer_Payload"
-				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "TC2")
 					(unit 1)
 				)
 			)
@@ -11482,7 +11339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 167.64 173.99 0)
 			(effects
 				(font
@@ -11523,7 +11380,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 31.75 91.44 180)
+		(at 30.48 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11532,7 +11389,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf5079ef-88c2-4bd9-86bd-111a8e024cea")
 		(property "Reference" "J3"
-			(at 31.75 82.55 0)
+			(at 30.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11540,7 +11397,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 31.75 85.09 0)
+			(at 30.48 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11548,7 +11405,7 @@
 			)
 		)
 		(property "Footprint" "CustomFootprintLib:TERMBLOCK_OSTTE020104_3_5MM"
-			(at 31.75 91.44 0)
+			(at 30.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11557,7 +11414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 91.44 0)
+			(at 30.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11566,7 +11423,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 91.44 0)
+			(at 30.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11822,7 +11679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 167.64 179.07 0)
 			(effects
 				(font
@@ -11996,7 +11853,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 31.75 162.56 180)
+		(at 30.48 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12005,7 +11862,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed63f4ee-8828-40aa-8ce3-440bd947852e")
 		(property "Reference" "J4"
-			(at 31.75 153.67 0)
+			(at 30.48 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12013,7 +11870,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 31.75 156.21 0)
+			(at 30.48 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12021,7 +11878,7 @@
 			)
 		)
 		(property "Footprint" "CustomFootprintLib:TERMBLOCK_OSTTE020104_3_5MM"
-			(at 31.75 162.56 0)
+			(at 30.48 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12030,7 +11887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 162.56 0)
+			(at 30.48 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12039,7 +11896,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 162.56 0)
+			(at 30.48 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12263,140 +12120,6 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermocouple_Block")
-		(at 30.48 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7d73073-75d9-46d5-844b-7e58f0b5f603")
-		(property "Reference" "TC3"
-			(at 30.48 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Thermocouple_Block"
-			(at 30.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CustomFootprintLib:PCC-SMP-K"
-			(at 15.875 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 15.875 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thermocouple with isothermal block"
-			(at 30.48 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63605509-a00b-4ec5-8651-9fab062fa82c")
-		)
-		(pin "1"
-			(uuid "268d5a85-0fb2-4078-9584-e5c4ad2d1517")
-		)
-		(instances
-			(project "IREC_HeatTransfer_Payload"
-				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "TC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermocouple_Block")
-		(at 30.48 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe1a0b85-e45c-47b3-9789-a0f6029e7921")
-		(property "Reference" "TC1"
-			(at 30.48 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Thermocouple_Block"
-			(at 30.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CustomFootprintLib:PCC-SMP-K"
-			(at 15.875 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 15.875 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thermocouple with isothermal block"
-			(at 30.48 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8909b74a-1d91-4dd5-a951-1af3f2f907ff")
-		)
-		(pin "1"
-			(uuid "35282489-842a-4b15-bd22-f11cb8d2924b")
-		)
-		(instances
-			(project "IREC_HeatTransfer_Payload"
-				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "TC1")
 					(unit 1)
 				)
 			)
