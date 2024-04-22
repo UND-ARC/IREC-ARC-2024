@@ -5419,16 +5419,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 25.4) (xy 143.51 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "227d2ce3-93ab-4ffb-876d-df9d9ee6cead")
-	)
-	(wire
-		(pts
 			(xy 140.97 85.09) (xy 140.97 96.52)
 		)
 		(stroke
@@ -5809,7 +5799,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 85.09) (xy 120.65 85.09)
+			(xy 115.57 85.09) (xy 120.65 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6259,16 +6249,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 25.4) (xy 128.27 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6b33b4d-7c66-48cc-903f-769731e12e91")
-	)
-	(wire
-		(pts
 			(xy 191.77 85.09) (xy 191.77 87.63)
 		)
 		(stroke
@@ -6667,18 +6647,6 @@
 		)
 		(uuid "2ac0c439-6017-4a0a-9466-451c5c83d726")
 	)
-	(hierarchical_label "+5V"
-		(shape output)
-		(at 162.56 33.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31029890-9ec1-4cf9-92ad-2a127283b36d")
-	)
 	(hierarchical_label "SCK"
 		(shape input)
 		(at 74.93 129.54 0)
@@ -6750,18 +6718,6 @@
 			(justify left)
 		)
 		(uuid "5e118a46-3c47-4f47-a2e2-1c4c2fc79648")
-	)
-	(hierarchical_label "LED_RED"
-		(shape input)
-		(at 118.11 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5e19bc2d-cf3b-4434-82c6-62867b237e4a")
 	)
 	(hierarchical_label "-TC3"
 		(shape output)
@@ -6918,18 +6874,6 @@
 			(justify left)
 		)
 		(uuid "b6053430-d6f9-4fd8-8454-34854e5c741e")
-	)
-	(hierarchical_label "+5V"
-		(shape input)
-		(at 127 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b69d8c35-1b6c-4a68-ba43-d906cb5d088e")
 	)
 	(hierarchical_label "VBAT_SENSE"
 		(shape output)
@@ -7154,6 +7098,72 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07153fe0-1654-4dc4-8796-2603d9973e24")
+		(property "Reference" "#PWR034"
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 162.56 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 162.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c2b87ed-6eaa-43a2-9010-112207b0f70b")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7428,74 +7438,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 132.08 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "144fa70b-33fe-4653-9d84-ed2d396f780d")
-		(property "Reference" "R8"
-			(at 132.08 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 132.08 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 27.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9599eaa3-d4bd-4a1b-afda-f6f316a70c06")
-		)
-		(pin "2"
-			(uuid "00d9cfbe-46c4-4050-a17e-41f303c3c5aa")
-		)
-		(instances
-			(project "IREC_HeatTransfer_Payload"
-				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CustomComponents:AP63357_(SparkFun_Buck_Regulator_5V)")
 		(at 110.49 50.8 0)
 		(unit 1)
@@ -7674,7 +7616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 156.21 36.83 0)
 			(effects
 				(font
@@ -8780,6 +8722,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 115.57 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37a253e4-1b61-4035-8d0c-06b3b8abc7ee")
+		(property "Reference" "#PWR035"
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.76 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bda3842-a179-4846-809a-55f0cb6ae974")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 41.91 99.06 0)
 		(unit 1)
@@ -9700,7 +9709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 38.1 44.45 0)
 			(effects
 				(font
@@ -9766,7 +9775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 93.98 33.02 0)
 			(effects
 				(font
@@ -10575,73 +10584,6 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e7824ec-e628-4f96-bfd9-bb42e8487108")
-		(property "Reference" "#PWR021"
-			(at 151.13 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39a68988-8eca-41cb-a293-4c72212e0e2f")
-		)
-		(instances
-			(project "IREC_HeatTransfer_Payload"
-				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12027,126 +11969,6 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Skyhawkson-LEDs and Optoelectronics:OSRAM_LGR971-KN-1")
-		(at 135.89 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0a53a26-5a3c-4147-9793-2b5c24528c61")
-		(property "Reference" "D3"
-			(at 137.922 19.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OSRAM_LGR971-KN-1"
-			(at 137.4774 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Skyhawkson_Footprints:OSRAM_0805"
-			(at 135.89 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-14795755/LG%20R971_EN.pdf"
-			(at 135.89 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED GREEN DIFFUSED 0805 SMD"
-			(at 135.89 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DKPN" "475-1410-1-ND"
-			(at 135.89 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Vf" "2V2"
-			(at 140.0174 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Current" "20mA"
-			(at 142.5574 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Color" "GREEN"
-			(at 135.382 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0805"
-			(at 147.6374 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "4cc911bc-81f4-401b-965a-4dd6d099e093")
-		)
-		(pin "A"
-			(uuid "8987d995-d0b5-4d82-b73a-ad27ad13fcfa")
-		)
-		(instances
-			(project "IREC_HeatTransfer_Payload"
-				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "D3")
 					(unit 1)
 				)
 			)
