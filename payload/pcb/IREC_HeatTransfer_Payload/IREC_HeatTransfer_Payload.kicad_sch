@@ -5778,8 +5778,16 @@
 		(uuid "f5bf0661-56c3-41a5-bd81-101b2ca6317a")
 	)
 	(no_connect
+		(at 224.79 53.34)
+		(uuid "0879ff7e-7f3e-4e0e-a5c8-09afbd9f09cc")
+	)
+	(no_connect
 		(at 153.67 176.53)
 		(uuid "23a7ad2a-94ee-4ccb-8440-a6c8ef23a426")
+	)
+	(no_connect
+		(at 224.79 50.8)
+		(uuid "27fac97b-9223-4cf9-8922-b2050f50e691")
 	)
 	(no_connect
 		(at 153.67 171.45)
@@ -7087,7 +7095,7 @@
 	)
 	(rectangle
 		(start 15.24 170.18)
-		(end 53.34 231.14)
+		(end 53.34 233.68)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7519,6 +7527,16 @@
 			(justify left bottom)
 		)
 		(uuid "d5d13c8a-71e6-429b-a9a2-81687cafcbcd")
+	)
+	(text "2.54mm Pin Headers"
+		(exclude_from_sim no)
+		(at 42.418 232.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e099f071-6a1d-49c4-affb-ebc03cad93b5")
 	)
 	(text "Voltage Sensing\n"
 		(exclude_from_sim no)
