@@ -6044,7 +6044,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 212.09) (xy 34.29 212.09)
+			(xy 31.75 219.71) (xy 34.29 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6084,7 +6084,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 207.01) (xy 34.29 207.01)
+			(xy 31.75 214.63) (xy 34.29 214.63)
 		)
 		(stroke
 			(width 0)
@@ -6784,7 +6784,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 226.06) (xy 34.29 226.06)
+			(xy 31.75 233.68) (xy 34.29 233.68)
 		)
 		(stroke
 			(width 0)
@@ -7004,7 +7004,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 218.44) (xy 34.29 218.44)
+			(xy 31.75 226.06) (xy 34.29 226.06)
 		)
 		(stroke
 			(width 0)
@@ -7084,7 +7084,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 220.98) (xy 34.29 220.98)
+			(xy 31.75 228.6) (xy 34.29 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7094,7 +7094,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 223.52) (xy 34.29 223.52)
+			(xy 31.75 231.14) (xy 34.29 231.14)
 		)
 		(stroke
 			(width 0)
@@ -7314,7 +7314,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 209.55) (xy 34.29 209.55)
+			(xy 31.75 217.17) (xy 34.29 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7448,7 +7448,7 @@
 	)
 	(rectangle
 		(start 15.24 170.18)
-		(end 53.34 233.68)
+		(end 55.88 241.3)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7894,7 +7894,7 @@
 	)
 	(text "2.54mm Pin Headers"
 		(exclude_from_sim no)
-		(at 42.418 232.156 0)
+		(at 44.958 239.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8059,18 +8059,6 @@
 		)
 		(uuid "04f0d0cd-5a56-4c2d-97d7-c9786b589bdb")
 	)
-	(hierarchical_label "I2C_SCL"
-		(shape input)
-		(at 34.29 199.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "05a46db4-d8b1-4928-a4b7-ef54c2031298")
-	)
 	(hierarchical_label "VBAT_COIN"
 		(shape output)
 		(at 193.04 67.31 0)
@@ -8107,6 +8095,18 @@
 		)
 		(uuid "257aa2a3-de67-4f31-929f-f3c5857186c6")
 	)
+	(hierarchical_label "SPI_MISO"
+		(shape output)
+		(at 31.75 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26ded17a-1cef-4661-a0ff-bbe6a4df8144")
+	)
 	(hierarchical_label "SCK"
 		(shape input)
 		(at 334.01 106.68 0)
@@ -8119,9 +8119,9 @@
 		)
 		(uuid "2ac0c439-6017-4a0a-9466-451c5c83d726")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO5"
 		(shape bidirectional)
-		(at 31.75 226.06 180)
+		(at 31.75 233.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8193,7 +8193,7 @@
 	)
 	(hierarchical_label "SPI_SCK"
 		(shape input)
-		(at 31.75 207.01 180)
+		(at 31.75 214.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8202,6 +8202,18 @@
 			(justify right)
 		)
 		(uuid "547d6619-871a-40b0-9ee7-b217c4bd8d19")
+	)
+	(hierarchical_label "LED_GREEN"
+		(shape output)
+		(at 265.43 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "568c683b-16a8-4385-9020-f80d1934a30b")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
@@ -8263,7 +8275,7 @@
 		)
 		(uuid "71859fff-d63a-4673-b57f-009472357bae")
 	)
-	(hierarchical_label "MOSI"
+	(hierarchical_label "SPI_MOSI"
 		(shape output)
 		(at 265.43 96.52 0)
 		(fields_autoplaced yes)
@@ -8275,19 +8287,7 @@
 		)
 		(uuid "72d7236a-7657-49e0-bb70-4271523b1fe3")
 	)
-	(hierarchical_label "LED_GREEN"
-		(shape output)
-		(at 224.79 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75917c2d-2471-4c7e-b740-6930914fdfa2")
-	)
-	(hierarchical_label "MISO"
+	(hierarchical_label "SPI_MISO"
 		(shape input)
 		(at 265.43 93.98 0)
 		(fields_autoplaced yes)
@@ -8347,6 +8347,30 @@
 		)
 		(uuid "9660ee28-30e7-4471-9bab-efa99a40a6cb")
 	)
+	(hierarchical_label "GPIO3"
+		(shape bidirectional)
+		(at 224.79 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99d3e23e-a7a1-44a5-927b-25015d77a5e9")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 224.79 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b77924e-2b09-44fe-8098-0a03fef9c279")
+	)
 	(hierarchical_label "T-"
 		(shape input)
 		(at 133.35 143.51 0)
@@ -8359,9 +8383,9 @@
 		)
 		(uuid "a09e6f65-41b7-4b1c-952e-a118ac3d1871")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO4"
 		(shape bidirectional)
-		(at 31.75 223.52 180)
+		(at 31.75 231.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8419,18 +8443,6 @@
 		)
 		(uuid "b0fceb3a-08e1-47dc-bb89-ae6f0f59c9eb")
 	)
-	(hierarchical_label "SPI_MOSI"
-		(shape input)
-		(at 31.75 209.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b15b634c-b204-421e-a85e-658be95c91d2")
-	)
 	(hierarchical_label "LED_GREEN"
 		(shape input)
 		(at 85.09 140.97 180)
@@ -8455,6 +8467,18 @@
 		)
 		(uuid "b4979350-2f92-49b8-9e2c-983450687220")
 	)
+	(hierarchical_label "GPIO5"
+		(shape bidirectional)
+		(at 224.79 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b54b2226-aeec-409c-969b-1a01b7bbb166")
+	)
 	(hierarchical_label "DS18_TEMP"
 		(shape output)
 		(at 44.45 149.86 0)
@@ -8467,9 +8491,9 @@
 		)
 		(uuid "b6053430-d6f9-4fd8-8454-34854e5c741e")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO2"
 		(shape bidirectional)
-		(at 31.75 218.44 180)
+		(at 31.75 226.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8490,6 +8514,42 @@
 			(justify left)
 		)
 		(uuid "c005400d-f7df-41f4-8de5-7b4997b78c1f")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape input)
+		(at 34.29 198.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c16cd52d-b6f2-4ebf-8a05-2b18246d421f")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 34.29 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1e5d70d-49bd-4116-b1e2-533be3186e3e")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape input)
+		(at 31.75 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c33eca9e-a2a2-4325-b27d-e3ed47465e0a")
 	)
 	(hierarchical_label "VBAT_SENSE"
 		(shape output)
@@ -8539,6 +8599,18 @@
 		)
 		(uuid "d6dd946d-744f-4245-ae30-13293fef23d2")
 	)
+	(hierarchical_label "GPIO2"
+		(shape bidirectional)
+		(at 265.43 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db245819-3ee7-49bd-98ef-4386e94a5305")
+	)
 	(hierarchical_label "T-"
 		(shape input)
 		(at 133.35 133.35 0)
@@ -8563,9 +8635,21 @@
 		)
 		(uuid "dc4c299c-4c8b-4c3e-bb6f-efc918763c21")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "GPIO4"
 		(shape bidirectional)
-		(at 31.75 220.98 180)
+		(at 224.79 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e25780b6-e519-471f-b279-a0cc92beaa7f")
+	)
+	(hierarchical_label "GPIO3"
+		(shape bidirectional)
+		(at 31.75 228.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8574,18 +8658,6 @@
 			(justify right)
 		)
 		(uuid "e2aacbd6-77d1-4be2-b9ab-0d56d3af35f8")
-	)
-	(hierarchical_label "I2C_SDA"
-		(shape input)
-		(at 34.29 196.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e597a6b9-25d9-4405-a650-2b3a5857d539")
 	)
 	(hierarchical_label "SCK"
 		(shape output)
@@ -8599,18 +8671,6 @@
 		)
 		(uuid "e5f6fa78-43c7-4454-b40b-0b74d69cff67")
 	)
-	(hierarchical_label "SPI_MISO"
-		(shape output)
-		(at 31.75 212.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ec638eae-ea59-447d-aa95-ef73686780d5")
-	)
 	(hierarchical_label "T3"
 		(shape input)
 		(at 133.35 140.97 0)
@@ -8622,6 +8682,18 @@
 			(justify left)
 		)
 		(uuid "ef4fb66d-299f-4016-9099-769b0d02ca0b")
+	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 224.79 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3f4c531-427c-4495-9e8f-387133943ae6")
 	)
 	(hierarchical_label "T2"
 		(shape input)
@@ -8635,17 +8707,29 @@
 		)
 		(uuid "f55775c7-0015-4a43-8c5a-8c101f7b3a39")
 	)
-	(hierarchical_label "LED_GREEN"
+	(hierarchical_label "TX"
 		(shape output)
-		(at 265.43 104.14 0)
+		(at 34.29 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "f7f629a7-cee0-4ef6-9d49-9f0aed1dbfc9")
+		(uuid "fa8d672f-9d8f-4508-80af-96a72dfdf8a3")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape input)
+		(at 34.29 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc90199d-7f1d-47cb-9c36-f4c7cabedbc3")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11021,7 +11105,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 39.37 220.98 0)
+		(at 39.37 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11030,7 +11114,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c73cb3e-ddaf-49e1-a201-7c90f728616c")
 		(property "Reference" "J5"
-			(at 41.91 220.9799 0)
+			(at 41.91 228.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,7 +11123,7 @@
 			)
 		)
 		(property "Value" "GPIO"
-			(at 41.91 223.5199 0)
+			(at 41.91 231.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11048,7 +11132,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 39.37 220.98 0)
+			(at 39.37 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,7 +11141,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 220.98 0)
+			(at 39.37 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11066,7 +11150,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 220.98 0)
+			(at 39.37 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11236,6 +11320,73 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 34.29 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5040df64-b36b-4391-9a4b-0f01c9fac527")
+		(property "Reference" "#PWR042"
+			(at 38.1 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 30.48 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 34.29 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5288852f-3572-4588-81b3-3e45052fb5b4")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11779,6 +11930,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 39.37 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cd80840-4a18-4dde-972e-8e62ca00e995")
+		(property "Reference" "J7"
+			(at 41.91 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "I2C"
+			(at 41.91 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 39.37 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 39.37 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7c40feb-7d3f-4a2a-a995-241a0afbb497")
+		)
+		(pin "2"
+			(uuid "b649128e-12ba-46c0-bfdd-bd2735b184b7")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CustomComponents:NJM7805SDL1-TE1")
 		(at 83.82 95.25 0)
 		(unit 1)
@@ -12078,26 +12299,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 34.29 182.88 90)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 39.37 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "77d06f1a-b24e-4856-830a-6c3a8e261749")
-		(property "Reference" "#PWR042"
-			(at 38.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 30.48 182.8799 90)
+		(uuid "78a2737a-6acf-49bd-8469-2ced7f1af93b")
+		(property "Reference" "J9"
+			(at 41.91 207.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12105,8 +12317,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 34.29 182.88 0)
+		(property "Value" "Serial"
+			(at 41.91 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 39.37 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12114,8 +12335,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 34.29 182.88 0)
+		(property "Datasheet" "~"
+			(at 39.37 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12123,8 +12344,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 34.29 182.88 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 39.37 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12133,79 +12354,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "074be71f-1e95-429a-a75c-6fc639446eec")
+			(uuid "6b00a1b8-8697-4c5e-857f-024ad74033cd")
+		)
+		(pin "2"
+			(uuid "9047921b-7995-4a0d-aed2-cd408b8032f1")
 		)
 		(instances
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 34.29 180.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b432f09-5900-47e1-b1d8-7c9924a64dd6")
-		(property "Reference" "#PWR041"
-			(at 38.1 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 30.48 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 34.29 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69882edd-f168-4788-8b9e-48f43ef9f340")
-		)
-		(instances
-			(project "IREC_HeatTransfer_Payload"
-				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "#PWR041")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -13593,7 +13750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CustomFootprintLib:AMASS_XT60PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
 			(at 45.72 35.56 0)
 			(effects
 				(font
@@ -14348,7 +14505,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 39.37 209.55 0)
+		(at 39.37 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14357,7 +14514,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc74ddca-17f1-4848-bf46-a450fff7745f")
 		(property "Reference" "J6"
-			(at 41.91 208.2799 0)
+			(at 41.91 215.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14366,7 +14523,7 @@
 			)
 		)
 		(property "Value" "SPI"
-			(at 41.91 210.8199 0)
+			(at 41.91 218.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14375,7 +14532,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 39.37 209.55 0)
+			(at 39.37 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14384,7 +14541,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 209.55 0)
+			(at 39.37 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14393,7 +14550,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 209.55 0)
+			(at 39.37 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15758,6 +15915,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 34.29 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7296b3d-a520-4b34-a377-0e5ec53ea829")
+		(property "Reference" "#PWR041"
+			(at 38.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 30.48 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 34.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e4232b2-07b0-46a5-affa-1d7838ccfc9f")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 191.77 71.12 90)
 		(unit 1)
@@ -15819,73 +16043,6 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 34.29 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb9e0f9f-cdb3-4adf-809f-f6134c427693")
-		(property "Reference" "#PWR043"
-			(at 38.1 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 30.48 185.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 34.29 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b9a668f-9e9d-4ac9-9901-c5e107c09b52")
-		)
-		(instances
-			(project "IREC_HeatTransfer_Payload"
-				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -16164,6 +16321,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 34.29 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f24f453a-48d9-49b0-8682-884afcedcde5")
+		(property "Reference" "#PWR043"
+			(at 38.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 30.48 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 34.29 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b8f5d28-2ce4-4891-ae73-2193393ed7bc")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 132.08 180)
 		(unit 1)
@@ -16224,76 +16448,6 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 39.37 196.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "faa18633-0bb8-4091-9a91-f9675ee3361e")
-		(property "Reference" "J7"
-			(at 41.91 196.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "I2C"
-			(at 41.91 199.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 39.37 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d0c485a-b46f-483b-a735-1a57aaa90664")
-		)
-		(pin "2"
-			(uuid "da63c376-7463-428e-9909-3d5e1f35713f")
-		)
-		(instances
-			(project "IREC_HeatTransfer_Payload"
-				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "J7")
 					(unit 1)
 				)
 			)
