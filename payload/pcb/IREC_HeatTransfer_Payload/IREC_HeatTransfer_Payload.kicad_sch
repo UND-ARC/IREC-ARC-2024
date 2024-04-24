@@ -1252,6 +1252,167 @@
 				)
 			)
 		)
+		(symbol "CustomComponents:MPXV7002DP"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MPXV7002DP"
+				(at -7.62 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "MPXV7002DP:XDCR_MPXV7002DP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "NXP Semiconductors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "9.91 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MPXV7002DP_0_0"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CustomComponents:NJM7805SDL1-TE1"
 			(pin_names
 				(offset 0.254)
@@ -5580,6 +5741,12 @@
 		)
 	)
 	(junction
+		(at 125.73 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eb6d823-e194-41e5-851f-806a46145948")
+	)
+	(junction
 		(at 129.54 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5592,12 +5759,6 @@
 		(uuid "2b92a170-4c1c-4436-9dfb-807a14092f63")
 	)
 	(junction
-		(at 95.25 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cd8d1eb-a446-4a96-a355-80d4cb6ab8d6")
-	)
-	(junction
 		(at 34.29 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5608,6 +5769,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36bf486a-834a-4725-accc-2ae8362e9de7")
+	)
+	(junction
+		(at 107.95 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3be336f7-f1cf-488b-a3b7-208aa88fc0af")
 	)
 	(junction
 		(at 43.18 149.86)
@@ -5632,6 +5799,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ae03916-37be-4d3f-bc1c-d6588ed227bf")
+	)
+	(junction
+		(at 111.76 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64929332-8ebe-472b-aec2-d569f441cf95")
 	)
 	(junction
 		(at 300.99 36.83)
@@ -5664,6 +5837,12 @@
 		(uuid "83ce9fc8-60e2-47cc-a794-3f5b235ba1ff")
 	)
 	(junction
+		(at 107.95 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85fb4775-23c6-4da4-a1a8-c9b2157e74d7")
+	)
+	(junction
 		(at 116.84 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5674,6 +5853,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98eb0086-22bb-4b7c-af6f-dff29f596492")
+	)
+	(junction
+		(at 107.95 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a2fb7f2-c59f-441a-856c-e93a64ed59ee")
 	)
 	(junction
 		(at 300.99 44.45)
@@ -5698,6 +5883,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6af52f4-04db-4fb0-b6e8-411aae8199ad")
+	)
+	(junction
+		(at 120.65 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7e4c14f-8a54-4557-96bc-c1d0fae17419")
 	)
 	(junction
 		(at 194.31 35.56)
@@ -5752,6 +5943,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de18a599-160d-44d1-acda-0c54167d9225")
+	)
+	(junction
+		(at 125.73 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e77b452c-567f-4141-9248-f02e20770ea7")
 	)
 	(junction
 		(at 267.97 142.24)
@@ -6263,6 +6460,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 213.36) (xy 120.65 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ae2f61-f4d4-4c3f-9fe0-27003b093ca1")
+	)
+	(wire
+		(pts
 			(xy 267.97 142.24) (xy 267.97 144.78)
 		)
 		(stroke
@@ -6270,6 +6477,16 @@
 			(type default)
 		)
 		(uuid "41d36546-04a4-4408-b24c-94a0b8c7e25f")
+	)
+	(wire
+		(pts
+			(xy 120.65 219.71) (xy 121.92 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421395bb-638b-406a-9aee-ab788cadafe8")
 	)
 	(polyline
 		(pts
@@ -6300,6 +6517,16 @@
 			(type default)
 		)
 		(uuid "495871f9-7519-4834-84dd-448f22340437")
+	)
+	(wire
+		(pts
+			(xy 107.95 231.14) (xy 111.76 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d047ec-c8af-408e-bf0e-51068b0c7345")
 	)
 	(wire
 		(pts
@@ -6353,6 +6580,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 50.8) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f895a2-2de9-4978-a616-bc4e5dbd8cac")
+	)
+	(wire
+		(pts
 			(xy 39.37 110.49) (xy 41.91 110.49)
 		)
 		(stroke
@@ -6393,6 +6630,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 240.03) (xy 107.95 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a26398c-6d5a-4450-8bd6-1ebf0feab934")
+	)
+	(wire
+		(pts
 			(xy 162.56 35.56) (xy 162.56 43.18)
 		)
 		(stroke
@@ -6410,6 +6657,16 @@
 			(type default)
 		)
 		(uuid "7c4e9112-ab88-4e97-ad95-cd1bf4d56e6d")
+	)
+	(wire
+		(pts
+			(xy 107.95 213.36) (xy 110.49 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9fad82-5627-47da-956c-d13e87a4e6e1")
 	)
 	(wire
 		(pts
@@ -6433,6 +6690,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 231.14) (xy 121.92 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ce68f5-eea9-4cb3-b714-77b776c60961")
+	)
+	(wire
+		(pts
 			(xy 162.56 45.72) (xy 162.56 43.18)
 		)
 		(stroke
@@ -6443,7 +6710,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 50.8) (xy 129.54 50.8)
+			(xy 115.57 50.8) (xy 125.73 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6713,6 +6980,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 240.03) (xy 111.76 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31630bc-c580-4bd6-bc71-dc174e110d69")
+	)
+	(wire
+		(pts
 			(xy 162.56 53.34) (xy 162.56 55.88)
 		)
 		(stroke
@@ -6773,6 +7050,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 209.55) (xy 107.95 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b3395c-5593-43b1-8fbc-70a2053e1271")
+	)
+	(wire
+		(pts
 			(xy 81.28 43.18) (xy 81.28 45.72)
 		)
 		(stroke
@@ -6790,6 +7077,16 @@
 			(type default)
 		)
 		(uuid "ce6e8c87-6e9c-44c5-9802-f27981b67fb2")
+	)
+	(wire
+		(pts
+			(xy 110.49 226.06) (xy 107.95 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5f9036-0dc2-4f7d-9d99-e7b903f426d3")
 	)
 	(wire
 		(pts
@@ -6823,6 +7120,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 219.71) (xy 120.65 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d253e073-f37a-40d4-b291-45610d607760")
+	)
+	(wire
+		(pts
+			(xy 107.95 243.84) (xy 107.95 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a50e9f-0123-4a2d-8f1d-ad6ceb420bec")
+	)
+	(wire
+		(pts
 			(xy 194.31 33.02) (xy 194.31 35.56)
 		)
 		(stroke
@@ -6830,6 +7147,16 @@
 			(type default)
 		)
 		(uuid "d4b5d3d6-a357-4fa2-9ff8-a88c7af0485a")
+	)
+	(wire
+		(pts
+			(xy 120.65 213.36) (xy 120.65 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db62f14e-af3a-4168-9afc-f2549375cc67")
 	)
 	(wire
 		(pts
@@ -6860,6 +7187,16 @@
 			(type default)
 		)
 		(uuid "dd7079d7-fa19-458c-a5b2-18a27e5837e0")
+	)
+	(wire
+		(pts
+			(xy 107.95 213.36) (xy 107.95 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1637723-c47a-48ca-9419-d2f0a1761a42")
 	)
 	(polyline
 		(pts
@@ -6923,6 +7260,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 226.06) (xy 118.11 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea12a2c2-d79c-443a-963e-5f2a773044de")
+	)
+	(wire
+		(pts
 			(xy 78.74 138.43) (xy 93.98 138.43)
 		)
 		(stroke
@@ -6960,6 +7307,16 @@
 			(type default)
 		)
 		(uuid "f33c318f-7dbe-42b6-a3dc-5546683eda19")
+	)
+	(wire
+		(pts
+			(xy 107.95 240.03) (xy 111.76 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f387ce31-c427-4da8-95c0-1cbeb4abebc4")
 	)
 	(wire
 		(pts
@@ -7080,6 +7437,18 @@
 			(type none)
 		)
 		(uuid 56084067-04c8-4e28-952d-f3e0fd426f86)
+	)
+	(rectangle
+		(start 82.042 199.898)
+		(end 132.08 254)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 66e4af70-8d01-4b3f-b4e5-67f507ccab08)
 	)
 	(rectangle
 		(start 134.62 157.48)
@@ -7407,6 +7776,17 @@
 			(justify left bottom)
 		)
 		(uuid "7d7ec972-33d3-42be-811d-035c48954e07")
+	)
+	(text "Pitot Tube"
+		(exclude_from_sim no)
+		(at 91.44 203.2 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+		)
+		(uuid "7f613266-a46e-409f-ab70-26be60edf27d")
 	)
 	(text "Battery Connector"
 		(exclude_from_sim no)
@@ -7942,6 +8322,30 @@
 			(justify left)
 		)
 		(uuid "79d7377f-170c-4736-a08c-fbd87ea2be25")
+	)
+	(hierarchical_label "PITOT"
+		(shape output)
+		(at 224.79 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8521c258-55e5-4f84-a249-4832398b9683")
+	)
+	(hierarchical_label "PITOT"
+		(shape output)
+		(at 121.92 231.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9660ee28-30e7-4471-9bab-efa99a40a6cb")
 	)
 	(hierarchical_label "T-"
 		(shape input)
@@ -8586,6 +8990,7 @@
 	(symbol
 		(lib_id "CustomComponents:AP63357_(SparkFun_Buck_Regulator_5V)")
 		(at 110.49 53.34 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8593,7 +8998,7 @@
 		(dnp no)
 		(uuid "14544572-116d-4a0b-98e0-e11df8073a93")
 		(property "Reference" "U4"
-			(at 105.41 25.146 0)
+			(at 115.57 25.146 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8601,7 +9006,7 @@
 			)
 		)
 		(property "Value" "AP63357"
-			(at 105.41 28.448 0)
+			(at 115.57 28.448 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -10778,6 +11183,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 114.3 226.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52a9cb16-e693-41d7-8d8a-ea1db1226834")
+		(property "Reference" "C15"
+			(at 114.3 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0uF"
+			(at 114.3 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 225.0948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "017f8a25-bd44-41e1-ad8f-d748bbe37594")
+		)
+		(pin "1"
+			(uuid "21838073-40d3-4557-94ba-c3ef0be0cd21")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57f3412d-ba65-40cc-abcb-2ea4f13cf7b6")
+		(property "Reference" "#PWR045"
+			(at 107.95 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b16e3375-52ee-462c-afeb-8a62d23088f0")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 345.44 71.12 0)
 		(unit 1)
@@ -10838,6 +11377,74 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d24dee6-a47a-4615-a42e-10a65b0aa5b4")
+		(property "Reference" "C16"
+			(at 114.3 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 114.3 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 212.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a65042b3-ed9d-4091-a760-654a984ac894")
+		)
+		(pin "1"
+			(uuid "0a54c2fa-183e-471d-895e-ec345d7e2867")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11814,6 +12421,73 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 219.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82b716e4-f8c7-496d-8a05-a4458e98de65")
+		(property "Reference" "#PWR047"
+			(at 128.27 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 219.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63289127-ec37-4344-8e14-401adf2d30be")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -14153,6 +14827,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 107.95 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccbc900e-adcf-487e-b983-a2a426d6283e")
+		(property "Reference" "#PWR046"
+			(at 107.95 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 107.95 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 107.95 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a12312c6-039d-476d-8dab-d76dab263c28")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 191.77 76.2 0)
 		(unit 1)
@@ -14413,6 +15153,118 @@
 		)
 	)
 	(symbol
+		(lib_id "CustomComponents:MPXV7002DP")
+		(at 95.25 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4900277-ce05-4da8-b2e5-d6eb95127aab")
+		(property "Reference" "U8"
+			(at 95.25 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MPXV7002DP"
+			(at 95.25 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SnapEDA Library:XDCR_MPXV7002DP"
+			(at 95.25 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4"
+			(at 95.25 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "NXP Semiconductors"
+			(at 95.25 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.91 mm"
+			(at 95.25 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 95.25 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "815567f8-9ad4-4c17-9556-e5ec7ca224a0")
+		)
+		(pin "4"
+			(uuid "d732eb96-77c7-4e09-8cb7-54d6596f9530")
+		)
+		(pin "2"
+			(uuid "ab18d385-a4f0-4ff2-90e2-ed39ed66f1c5")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x06")
 		(at 128.27 135.89 0)
 		(mirror y)
@@ -14639,6 +15491,75 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.76 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e37fe730-45d4-4ca8-af22-8010baf195bc")
+		(property "Reference" "C14"
+			(at 115.062 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF"
+			(at 115.062 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.7252 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 111.76 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fb0b333-cb38-48a6-9744-66485c7b4c54")
+		)
+		(pin "1"
+			(uuid "31cc7173-aa2e-4e8f-982f-c7ac0769b347")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "C14")
 					(unit 1)
 				)
 			)
