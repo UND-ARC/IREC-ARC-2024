@@ -5741,12 +5741,6 @@
 		)
 	)
 	(junction
-		(at 125.73 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0eb6d823-e194-41e5-851f-806a46145948")
-	)
-	(junction
 		(at 129.54 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5867,6 +5861,12 @@
 		(uuid "a64d2c96-4dbc-4efa-aae9-12bc55bdb08c")
 	)
 	(junction
+		(at 95.25 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a87ff6c8-e34b-4b1f-823f-f86ebd12ef1d")
+	)
+	(junction
 		(at 93.98 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5943,12 +5943,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de18a599-160d-44d1-acda-0c54167d9225")
-	)
-	(junction
-		(at 125.73 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e77b452c-567f-4141-9248-f02e20770ea7")
 	)
 	(junction
 		(at 267.97 142.24)
@@ -6580,16 +6574,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 50.8) (xy 129.54 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67f895a2-2de9-4978-a616-bc4e5dbd8cac")
-	)
-	(wire
-		(pts
 			(xy 39.37 110.49) (xy 41.91 110.49)
 		)
 		(stroke
@@ -6710,7 +6694,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 50.8) (xy 125.73 50.8)
+			(xy 115.57 50.8) (xy 129.54 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7512,7 +7496,7 @@
 	)
 	(rectangle
 		(start 15.24 125.73)
-		(end 58.42 165.1)
+		(end 60.96 165.1)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7975,50 +7959,6 @@
 		)
 		(uuid "f932cf6c-5caf-40df-9e4f-8664563390c0")
 	)
-	(label "T2_CS"
-		(at 334.01 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f49f7d8-f562-4bde-8fec-e0dd05c7847b")
-	)
-	(label "T1_CS"
-		(at 334.01 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "65f0343d-370b-4fbe-a436-98a2892d2d29")
-	)
-	(label "T3_CS"
-		(at 334.01 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79894d5b-f38f-4d50-87ec-47ed50812ccb")
-	)
-	(label "SCK"
-		(at 334.01 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b8f0db0-aeb3-497b-a3b3-4a7e72126503")
-	)
 	(global_label "V_BUCK"
 		(shape output)
 		(at 81.28 34.29 90)
@@ -8131,7 +8071,7 @@
 		)
 		(uuid "05a46db4-d8b1-4928-a4b7-ef54c2031298")
 	)
-	(hierarchical_label "VBAT_CR2032"
+	(hierarchical_label "VBAT_COIN"
 		(shape output)
 		(at 193.04 67.31 0)
 		(fields_autoplaced yes)
@@ -8154,6 +8094,18 @@
 			(justify right)
 		)
 		(uuid "117ee3bc-c13f-481d-b0cc-7544466a1392")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 334.01 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "257aa2a3-de67-4f31-929f-f3c5857186c6")
 	)
 	(hierarchical_label "SCK"
 		(shape input)
@@ -8190,6 +8142,18 @@
 			(justify left)
 		)
 		(uuid "3b46a664-8f4f-457f-ad48-c59adc190932")
+	)
+	(hierarchical_label "T1_CS"
+		(shape output)
+		(at 334.01 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cf650ce-fd7c-440b-96c1-0b974f3b5be6")
 	)
 	(hierarchical_label "T1"
 		(shape output)
@@ -8239,6 +8203,18 @@
 		)
 		(uuid "547d6619-871a-40b0-9ee7-b217c4bd8d19")
 	)
+	(hierarchical_label "I2C_SCL"
+		(shape input)
+		(at 224.79 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b07413d-3829-4821-a127-9963a1405664")
+	)
 	(hierarchical_label "MISO"
 		(shape output)
 		(at 334.01 38.1 0)
@@ -8275,7 +8251,7 @@
 		)
 		(uuid "69a079cd-5e6c-41a4-a6c6-637f8a183455")
 	)
-	(hierarchical_label "TEMP_SENSE"
+	(hierarchical_label "DS18_TEMP"
 		(shape input)
 		(at 224.79 99.06 180)
 		(fields_autoplaced yes)
@@ -8286,6 +8262,18 @@
 			(justify right)
 		)
 		(uuid "71859fff-d63a-4673-b57f-009472357bae")
+	)
+	(hierarchical_label "MOSI"
+		(shape output)
+		(at 265.43 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72d7236a-7657-49e0-bb70-4271523b1fe3")
 	)
 	(hierarchical_label "LED_GREEN"
 		(shape output)
@@ -8324,7 +8312,7 @@
 		(uuid "79d7377f-170c-4736-a08c-fbd87ea2be25")
 	)
 	(hierarchical_label "PITOT"
-		(shape output)
+		(shape input)
 		(at 224.79 104.14 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8334,6 +8322,18 @@
 			(justify right)
 		)
 		(uuid "8521c258-55e5-4f84-a249-4832398b9683")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape input)
+		(at 224.79 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91eb7fd7-70fa-4606-b509-d810aa11a4a5")
 	)
 	(hierarchical_label "PITOT"
 		(shape output)
@@ -8407,7 +8407,7 @@
 		)
 		(uuid "abb6f707-eae5-4282-9781-aa7b5c9a0c9e")
 	)
-	(hierarchical_label "VBAT_CR2032"
+	(hierarchical_label "VBAT_COIN"
 		(shape input)
 		(at 265.43 43.18 0)
 		(fields_autoplaced yes)
@@ -8443,7 +8443,19 @@
 		)
 		(uuid "b163b850-961d-4cd5-8e7f-b8426322ee9f")
 	)
-	(hierarchical_label "TEMP_SENSE"
+	(hierarchical_label "T1_CS"
+		(shape input)
+		(at 224.79 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4979350-2f92-49b8-9e2c-983450687220")
+	)
+	(hierarchical_label "DS18_TEMP"
 		(shape output)
 		(at 44.45 149.86 0)
 		(fields_autoplaced yes)
@@ -8467,6 +8479,18 @@
 		)
 		(uuid "b7896a42-635a-4ecd-af15-fb648e3d3a79")
 	)
+	(hierarchical_label "T3_CS"
+		(shape output)
+		(at 334.01 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c005400d-f7df-41f4-8de5-7b4997b78c1f")
+	)
 	(hierarchical_label "VBAT_SENSE"
 		(shape output)
 		(at 193.04 35.56 180)
@@ -8478,6 +8502,30 @@
 			(justify right)
 		)
 		(uuid "c61577bd-d944-46af-8c09-2f41b18d4fd5")
+	)
+	(hierarchical_label "T3_CS"
+		(shape input)
+		(at 224.79 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d31f03a5-8fbf-4436-af0c-83b2931a2e75")
+	)
+	(hierarchical_label "T2_CS"
+		(shape output)
+		(at 334.01 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4e0daf3-1117-44df-9e9d-4d1895473ae7")
 	)
 	(hierarchical_label "T3"
 		(shape output)
@@ -8502,6 +8550,18 @@
 			(justify left)
 		)
 		(uuid "dc191ceb-4e3d-47f9-a2fd-b50fe6bacb79")
+	)
+	(hierarchical_label "T2_CS"
+		(shape input)
+		(at 224.79 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc4c299c-4c8b-4c3e-bb6f-efc918763c21")
 	)
 	(hierarchical_label "GPIO"
 		(shape bidirectional)
@@ -8563,18 +8623,6 @@
 		)
 		(uuid "ef4fb66d-299f-4016-9099-769b0d02ca0b")
 	)
-	(hierarchical_label "LED_RED"
-		(shape output)
-		(at 265.43 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f2c57569-8774-461b-97b0-01790f9af0d4")
-	)
 	(hierarchical_label "T2"
 		(shape input)
 		(at 133.35 135.89 0)
@@ -8586,6 +8634,18 @@
 			(justify left)
 		)
 		(uuid "f55775c7-0015-4a43-8c5a-8c101f7b3a39")
+	)
+	(hierarchical_label "LED_GREEN"
+		(shape output)
+		(at 265.43 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7f629a7-cee0-4ef6-9d49-9f0aed1dbfc9")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8990,7 +9050,6 @@
 	(symbol
 		(lib_id "CustomComponents:AP63357_(SparkFun_Buck_Regulator_5V)")
 		(at 110.49 53.34 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8998,7 +9057,7 @@
 		(dnp no)
 		(uuid "14544572-116d-4a0b-98e0-e11df8073a93")
 		(property "Reference" "U4"
-			(at 115.57 25.146 0)
+			(at 105.41 25.146 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -9006,7 +9065,7 @@
 			)
 		)
 		(property "Value" "AP63357"
-			(at 115.57 28.448 0)
+			(at 105.41 28.448 0)
 			(effects
 				(font
 					(size 1.778 1.778)
