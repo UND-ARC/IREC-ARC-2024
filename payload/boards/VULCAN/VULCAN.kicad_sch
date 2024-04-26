@@ -9058,7 +9058,7 @@
 		)
 		(uuid "cc346da3-8b7f-4014-aba4-3c7b027edd7d")
 	)
-	(text "To-Do\n- Add current sensing?"
+	(text "To-Do\n- Add current sensing? (size down shunt?)"
 		(exclude_from_sim no)
 		(at 422.656 164.592 0)
 		(effects
@@ -14144,7 +14144,7 @@
 		(dnp no)
 		(uuid "8c3d84f9-06a2-4d5a-9c6d-7e90a5ebf725")
 		(property "Reference" "D3"
-			(at 193.548 157.48 0)
+			(at 191.516 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14221,8 +14221,8 @@
 				(hide yes)
 			)
 		)
-		(property "Color" "RED"
-			(at 191.008 156.464 0)
+		(property "Color" "GREEN"
+			(at 193.548 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
