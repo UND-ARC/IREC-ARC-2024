@@ -1,4 +1,4 @@
-23474938145215563
+23476652244473639
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54347,6 +54347,13 @@ https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf
 0
 2
 2
+CustomFootprintLib
+VREG_L78M12CDT-TR
+
+
+0
+3
+3
 CustomFootprintLib
 V_REG_MIC52053.3V
 <b>Small Outline Transistor</b>
