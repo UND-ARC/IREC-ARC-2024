@@ -58,7 +58,19 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "connection_width|174732874|80667750|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000",
+        "connection_width|175787130|80667750|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000",
+        "connection_width|177272874|80667750|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000",
+        "connection_width|178327130|80667750|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000",
+        "connection_width|188363750|47986869|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000",
+        "connection_width|199285750|75114071|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000",
+        "connection_width|199285750|76168333|8cafe587-9a55-4b1b-be8c-d780c23d5614|48eb15d7-b3cf-42be-b502-2ea438ecfb97",
+        "connection_width|199285750|79482869|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000",
+        "connection_width|199285750|83851667|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000",
+        "connection_width|200764251|48264000|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000",
+        "connection_width|200764251|49041130|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -460,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "IREC_HeatTransfer_Payload.kicad_pro",
+    "filename": "VULCAN.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -498,7 +510,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "IREC_HeatTransfer_Payload.step",
+      "step": "VULCAN.step",
       "svg": "",
       "vrml": ""
     },
