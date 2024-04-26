@@ -1523,26 +1523,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 5.7234 0)
+			(property "Reference" "J2"
+				(at 6.35 2.5401 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "XT60PW-M"
-				(at -5.08 -5.0923 0)
+				(at 6.35 0.0001 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "CustomFootprintLib:AMASS_XT60PW-M"
-				(at 0 0 0)
+			(property "Footprint" "Connector_AMASS:AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal"
+				(at -0.254 -6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1610,7 +1610,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
-				(at 0 0 0)
+				(at -0.254 -4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1620,7 +1620,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer recommendations"
-				(at 0 0 0)
+				(at -0.254 -1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1640,7 +1640,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
-				(at 0 0 0)
+				(at 0 -4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1660,7 +1660,7 @@
 				)
 			)
 			(property "Description_1" "\nSocket, DC supply, male, PIN: 2\n"
-				(at 0 0 0)
+				(at 0 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1702,9 +1702,9 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 2.54 0)
+					(at -10.16 0 0)
 					(length 5.08)
-					(name "+"
+					(name "-"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1720,9 +1720,9 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 0 0)
+					(at -10.16 2.54 0)
 					(length 5.08)
-					(name "-"
+					(name "+"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4136,6 +4136,347 @@
 				)
 			)
 		)
+		(symbol "Motor:Fan_4pin"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fan_4pin"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Fan Motor tacho PWM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "FanPinHeader*P2.54mm*Vertical* PinHeader*P2.54mm*Vertical* TerminalBlock*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fan_4pin_0_0"
+				(arc
+					(start -5.588 1.524)
+					(mid -5.08 1.0182)
+					(end -4.572 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 2.032)
+					(mid -5.4392 1.8832)
+					(end -5.588 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.032) (xy -5.334 2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.032) (xy -5.207 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 2.54) (xy -4.064 1.016) (xy -3.302 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fan_4pin_0_1"
+				(arc
+					(start -2.54 -0.508)
+					(mid 0.0028 0.9121)
+					(end 0 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.2352) (xy 0 -2.6416)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.2672) (xy 0 4.6228)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.572) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.016) (xy -4.064 -1.016) (xy -4.064 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.334 -3.302) (xy -5.08 -3.302) (xy -5.08 -3.048) (xy -4.826 -3.048) (xy -4.826 -3.302) (xy -4.318 -3.302)
+						(xy -4.318 -3.048) (xy -4.064 -3.048) (xy -4.064 -3.302) (xy -3.556 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.016)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.81)
+					(mid 0.053 0.921)
+					(end 2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -0.508)
+					(mid 0 1.0618)
+					(end -2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fan_4pin_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "Tacho"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Sensor_Temperature:DS18B20"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6182,6 +6523,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 163.83) (xy 173.99 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b743cfc-fc8f-4607-ab63-9f76ce3c61af")
+	)
+	(wire
+		(pts
 			(xy 88.9 133.35) (xy 93.98 133.35)
 		)
 		(stroke
@@ -6509,6 +6860,16 @@
 			(type default)
 		)
 		(uuid "73c35682-2839-447d-b4d8-3c3329f7dc21")
+	)
+	(wire
+		(pts
+			(xy 170.18 168.91) (xy 173.99 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741dc41a-c3f9-4e96-ab9e-4e54c7b3cebb")
 	)
 	(wire
 		(pts
@@ -8104,6 +8465,18 @@
 		)
 		(uuid "568c683b-16a8-4385-9020-f80d1934a30b")
 	)
+	(hierarchical_label "FAN_PWM"
+		(shape output)
+		(at 224.79 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59221ff3-47c9-4923-bae8-1c9b9403db6a")
+	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
 		(at 224.79 111.76 180)
@@ -8416,6 +8789,18 @@
 		)
 		(uuid "b163b850-961d-4cd5-8e7f-b8426322ee9f")
 	)
+	(hierarchical_label "FAN_TACHO"
+		(shape output)
+		(at 170.18 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b21de5d1-6470-4f1f-8df0-29d532e3c564")
+	)
 	(hierarchical_label "DS18_TEMP"
 		(shape output)
 		(at 44.45 149.86 0)
@@ -8524,6 +8909,18 @@
 		)
 		(uuid "d6dd946d-744f-4245-ae30-13293fef23d2")
 	)
+	(hierarchical_label "FAN_TACHO"
+		(shape input)
+		(at 224.79 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da1d304f-ff9a-4cf6-a438-b0404180538f")
+	)
 	(hierarchical_label "T-"
 		(shape input)
 		(at 133.35 133.35 0)
@@ -8547,6 +8944,18 @@
 			(justify right)
 		)
 		(uuid "dc4c299c-4c8b-4c3e-bb6f-efc918763c21")
+	)
+	(hierarchical_label "FAN_PWM"
+		(shape output)
+		(at 170.18 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed876690-3c4b-48e0-8429-600a97b6d7e7")
 	)
 	(hierarchical_label "T3_CS"
 		(shape input)
@@ -11416,6 +11825,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Motor:Fan_4pin")
+		(at 181.61 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c5af97a-6a80-4fd3-8140-dbf26af62e87")
+		(property "Reference" "M1"
+			(at 186.69 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan_4pin"
+			(at 186.69 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+			(at 181.61 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+			(at 181.61 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan, tacho output, PWM input, 4-pin connector"
+			(at 181.61 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c460c900-6f9e-4763-ad6a-498fd06ef528")
+		)
+		(pin "1"
+			(uuid "b648584f-e266-4465-962c-8d04bc549f12")
+		)
+		(pin "3"
+			(uuid "c4dbea3e-b394-4302-a099-eb8fcf699f56")
+		)
+		(pin "2"
+			(uuid "e2e1b2bd-0ff6-4480-a177-38380107c242")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 349.25 69.85 0)
 		(unit 1)
@@ -11552,15 +12037,15 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 194.31 41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d2d8518-95b7-4cb8-adfb-26b815025037")
 		(property "Reference" "R8"
-			(at 196.85 40.6399 0)
+			(at 191.77 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11569,7 +12054,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 196.85 43.1799 0)
+			(at 191.77 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11578,7 +12063,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 192.532 41.91 90)
+			(at 196.088 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13706,8 +14191,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
-			(at 45.72 35.56 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60IPW-M_1x03_P7.20mm_Horizontal"
+			(at 45.466 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13775,7 +14260,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
-			(at 45.72 35.56 0)
+			(at 45.466 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13785,7 +14270,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 45.72 35.56 0)
+			(at 45.466 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13805,7 +14290,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
-			(at 45.72 35.56 0)
+			(at 45.72 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13825,7 +14310,7 @@
 			)
 		)
 		(property "Description_1" "\nSocket, DC supply, male, PIN: 2\n"
-			(at 45.72 35.56 0)
+			(at 45.72 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15451,6 +15936,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 181.61 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daf14355-5694-4dea-9390-187f12c2ab25")
+		(property "Reference" "#PWR049"
+			(at 181.61 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74fa49c8-c3f6-49d8-b2da-91cac673268a")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Temperature:MAX31855KASA")
 		(at 320.04 111.76 0)
 		(unit 1)
@@ -15731,6 +16282,72 @@
 			(project "IREC_HeatTransfer_Payload"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 181.61 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e440cc9c-ac76-4d45-9916-c811145901d8")
+		(property "Reference" "#PWR048"
+			(at 181.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 181.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 181.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ff76205-806d-401a-854a-ddc9ae39ca8e")
+		)
+		(instances
+			(project "IREC_HeatTransfer_Payload"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
