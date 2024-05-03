@@ -6772,12 +6772,20 @@
 		(uuid "51105f7d-30a2-4612-939b-f3b68696f87d")
 	)
 	(no_connect
+		(at 270.51 111.76)
+		(uuid "5212b566-f735-4ea5-883b-dd1d64520da2")
+	)
+	(no_connect
 		(at 229.87 66.04)
 		(uuid "5819e1ef-c97c-4cde-a259-d0a1caa0e39d")
 	)
 	(no_connect
 		(at 229.87 63.5)
 		(uuid "592febc8-3c40-409b-9121-6122b7698ca9")
+	)
+	(no_connect
+		(at 270.51 109.22)
+		(uuid "5e4e6dab-866c-42d0-b723-af4282d4c85f")
 	)
 	(no_connect
 		(at 356.87 44.45)
@@ -11173,6 +11181,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 100.33 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70283e7d-d0c9-439e-a4f0-d8a10a2eead5")
 		)
@@ -11236,6 +11253,15 @@
 		)
 		(property "Description" "IC REG LINEAR 5V 1A SOT223"
 			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/diodes-incorporated/AZ1117IH-5-0TRG1/5699673?s=N4IgTCBcDaIIIC0CMKDsBJAEgWgKwDoAGAFQCUBxJEAXQF8g"
+			(at 81.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11385,6 +11411,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 116.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a469f34a-ef37-4aa4-8d8d-f0d2750f5a4a")
 		)
@@ -11444,6 +11479,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 110.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP63357DV-7/10491496"
 			(at 110.49 53.34 0)
 			(effects
 				(font
@@ -11540,6 +11584,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 151.13 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c89cc89-0351-4bbe-aca9-eb74fbbc7199")
 		)
@@ -11607,6 +11660,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 374.65 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bae1bf3-e7af-4101-b341-e6ee99ceb1f4")
 		)
@@ -11666,6 +11728,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 106.68 198.12 0)
 			(effects
 				(font
@@ -11810,6 +11881,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 143.51 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e3912db-1c9f-4776-ae2e-0e0259a92438")
 		)
@@ -11871,6 +11951,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 143.51 134.62 0)
 			(effects
 				(font
@@ -12015,6 +12104,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/umw/DS18B20/16705963"
+			(at 34.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b37b777-efbc-4a8e-ad85-fab24f096d3d")
 		)
@@ -12080,6 +12178,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 316.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31850KATB/3976056"
 			(at 316.23 62.23 0)
 			(effects
 				(font
@@ -12182,6 +12289,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 150.495 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d55c73ca-a26d-4336-b958-c2174f1953f4")
 		)
@@ -12202,7 +12318,7 @@
 		(at 228.6 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12444,6 +12560,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.sparkfun.com/products/16996"
+			(at 250.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12705,6 +12830,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 39.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1a095f6-d718-49fa-8635-7ab002806cd0")
 		)
@@ -12765,6 +12899,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 316.23 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 316.23 179.07 0)
 			(effects
 				(font
@@ -12903,6 +13046,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 39.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "479b6758-63eb-4dcc-86ab-087e317728a8")
 		)
@@ -12974,6 +13126,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 137.16 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be86a098-fb08-4207-b0f8-852042f8389a")
 		)
@@ -13033,6 +13194,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 39.37 110.49 0)
 			(effects
 				(font
@@ -13110,6 +13280,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 372.11 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "247ae18a-bc7b-4b55-87ef-a323a97c9678")
 		)
@@ -13172,6 +13351,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 44.45 228.6 0)
 			(effects
 				(font
@@ -13255,6 +13443,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 320.04 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11119331-df0b-496a-8150-43a0eab12d16")
 		)
@@ -13315,6 +13512,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 96.52 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTE060104/2351820?s=N4IgTCBcDaIPIGUAqSCiAGAbOgjOgLCALoC%2BQA"
 			(at 96.52 146.05 0)
 			(effects
 				(font
@@ -13403,6 +13609,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 137.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87a38b6c-b9d8-4f4d-9d2e-93d30b75af23")
 		)
@@ -13462,6 +13677,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 195.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 195.58 99.06 0)
 			(effects
 				(font
@@ -13606,6 +13830,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 90.17 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fdb91dd-5b86-4bf2-97fb-bfb46b9cd8a9")
 		)
@@ -13666,6 +13899,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 195.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 195.58 87.63 0)
 			(effects
 				(font
@@ -13744,6 +13986,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 196.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f55cab1-2f1e-4f83-97ea-fc993b190d9b")
 		)
@@ -13764,7 +14015,7 @@
 		(at 132.08 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13945,6 +14196,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 85.09 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76b3367d-5ed0-4a57-b93d-ce1be5509b64")
 		)
@@ -14006,6 +14266,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 35.56 39.37 0)
 			(effects
 				(font
@@ -14144,6 +14413,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/bourns-inc/SRN8040TA-6R8M/6155128?s=N4IgTCBcDaIMoCUByAOADAFjQFQIIFoA2BFAWRAF0BfIA"
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "627a3e47-b0d0-4558-b157-5ef8805ecfdb")
 		)
@@ -14206,6 +14484,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 44.45 198.12 0)
 			(effects
 				(font
@@ -14349,6 +14636,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "244fed96-2a17-4914-b8fd-c07ea5548d5a")
 		)
@@ -14411,6 +14707,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 196.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 196.85 29.21 0)
 			(effects
 				(font
@@ -14488,6 +14793,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "109732e4-9b86-4d70-9b66-e742f910fa18")
 		)
@@ -14550,6 +14864,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 44.45 207.01 0)
 			(effects
 				(font
@@ -14694,6 +15017,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/molex/0022272021/1130577"
+			(at 386.08 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fcbf14ab-1492-41d4-87d7-72f11508fb0a")
 		)
@@ -14822,6 +15154,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 44.45 182.88 0)
 			(effects
 				(font
@@ -14965,6 +15306,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 129.54 46.99 0)
 			(effects
 				(font
@@ -15174,6 +15524,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/analog-devices-inc/lt1001cs8-pbf/891230"
+			(at 151.13 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb064206-7564-44fe-a91e-75db6303b758")
 		)
@@ -15252,6 +15611,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 316.23 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 316.23 194.31 0)
 			(effects
 				(font
@@ -15391,6 +15759,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 137.16 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1658073c-b1cf-43c4-99fa-766fd4efb3ba")
 		)
@@ -15452,6 +15829,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 151.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 151.13 49.53 0)
 			(effects
 				(font
@@ -15594,6 +15980,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 137.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5864727e-fe93-4b66-aae3-b8cd665953b9")
 		)
@@ -15655,6 +16050,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 90.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 90.17 40.64 0)
 			(effects
 				(font
@@ -15799,6 +16203,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0df0bcf-74df-453c-aa1f-5d0430d1c1b8")
 		)
@@ -15868,6 +16281,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 328.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0a3b018-b293-46c6-936b-aaed15f5c9cd")
 		)
@@ -15929,6 +16351,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 39.37 72.39 0)
 			(effects
 				(font
@@ -16125,6 +16556,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "93567f31-3dc3-4c36-9d6d-ea10995413a6")
 		)
@@ -16187,6 +16627,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 43.18 144.78 0)
 			(effects
 				(font
@@ -16263,6 +16712,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 137.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61c707ff-dcf4-4a69-b3cf-96e223e8bfaf")
 		)
@@ -16324,6 +16782,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 86.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 86.36 151.13 0)
 			(effects
 				(font
@@ -16517,6 +16984,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/visual-communications-company-vcc/CMD17-21VGD-TR8/254855?s=N4IgTCBcDaIMIFkAiBGA7AWjCgagcSQHoAVAJQA4QBdAXyA"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16722,6 +17198,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31850KATB/3976056"
+			(at 316.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "f4a9e16b-1dad-436a-9bc2-0111b75e8639")
 		)
@@ -16816,6 +17301,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 100.33 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d802a5e5-7e73-4342-91b9-c186d7dbfdec")
 		)
@@ -16878,6 +17372,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 44.45 217.17 0)
 			(effects
 				(font
@@ -16949,6 +17452,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 323.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 323.85 194.31 0)
 			(effects
 				(font
@@ -17091,6 +17603,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 316.23 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "881126b3-2344-4a1f-86ca-667993e29f56")
 		)
@@ -17150,6 +17671,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 316.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31850KATB/3976056"
 			(at 316.23 31.75 0)
 			(effects
 				(font
@@ -17254,6 +17784,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 129.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe61444b-5af9-4ecd-8f67-cf26006ea5f3")
 		)
@@ -17316,6 +17855,15 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
+			(at 185.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/keystone-electronics/1060/303556"
 			(at 185.42 152.4 0)
 			(effects
 				(font
@@ -17424,7 +17972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OSRAM_LSR976-NR-1"
+		(property "Value" "CMD17-21VRD/TR8"
 			(at 47.3074 95.25 90)
 			(effects
 				(font
@@ -17509,6 +18057,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/visual-communications-company-vcc/CMD17-21VRD-TR8/254853"
+			(at 45.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17621,6 +18178,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/nxp-usa-inc/mpxv7002dp/1168436"
+			(at 176.53 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "815567f8-9ad4-4c17-9556-e5ec7ca224a0")
 		)
@@ -17685,6 +18251,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 125.73 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTE060104/2351820?s=N4IgTCBcDaIPIGUAqSCiAGAbOgjOgLCALoC%2BQA"
 			(at 125.73 147.32 0)
 			(effects
 				(font
@@ -17827,6 +18402,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/visual-communications-company-vcc/CMD17-21VGD-TR8/254855?s=N4IgTCBcDaIMIFkAiBGA7AWjCgagcSQHoAVAJQA4QBdAXyA"
+			(at 374.65 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "80826906-f4f7-4ff2-bbb6-5d85742838d5")
 		)
@@ -17887,6 +18471,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 316.23 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 316.23 189.23 0)
 			(effects
 				(font
@@ -18027,6 +18620,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "43a9e662-30b6-4d0e-8c8d-3747eb3f8ada")
 		)
@@ -18088,6 +18690,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 193.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 193.04 107.95 0)
 			(effects
 				(font
@@ -18234,6 +18845,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" "https://www.digikey.com/en/products/detail/onsemi/2N7002K/2060348"
+			(at 377.19 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "30eff2fc-bc28-42de-bcc6-ccde43877d70")
 		)
@@ -18323,7 +18943,7 @@
 		(at 185.42 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18503,6 +19123,15 @@
 				(hide yes)
 			)
 		)
+		(property "Purchase" ""
+			(at 336.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10bd5c32-2ea1-4d95-a130-f8e7754b7b08")
 		)
@@ -18631,6 +19260,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 140.97 54.61 0)
 			(effects
 				(font
@@ -18898,6 +19536,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead, Alternate KiCAD Library"
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase" ""
 			(at 137.16 144.78 0)
 			(effects
 				(font
