@@ -59,13 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|157942000|67963800|b3ac8adb-458c-4fe5-861d-353e3358c3a9|7754518f-bdeb-4129-808a-a78ebd377217",
-        "clearance|158193600|65765400|34012d6b-73fc-4175-9b31-548b72de5004|9f90a8b2-b4e0-495d-bac6-3652aa64f423",
-        "clearance|158392000|67963800|7754518f-bdeb-4129-808a-a78ebd377217|028c35cb-30e3-4fa6-a8cd-5ddc993aa2c2",
-        "clearance|158643600|65765400|6e90cc7b-f929-4341-9a19-da404b9f9d6e|34012d6b-73fc-4175-9b31-548b72de5004",
-        "clearance|159093600|66463800|21da1bdf-63bb-4f4a-9abc-6aaa6fbc204e|332fc175-8be5-4ad7-8f44-93f31a3d4fdb",
-        "clearance|159093600|67265400|2aa665a1-e3c4-48b3-8b7b-ee00df966340|332fc175-8be5-4ad7-8f44-93f31a3d4fdb",
-        "clearance|159093600|67963800|2aa665a1-e3c4-48b3-8b7b-ee00df966340|028c35cb-30e3-4fa6-a8cd-5ddc993aa2c2",
         "connection_width|171070250|79990869|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000",
         "connection_width|188829870|60810250|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000",
         "connection_width|189884130|60810250|48eb15d7-b3cf-42be-b502-2ea438ecfb97|00000000-0000-0000-0000-000000000000",
@@ -84,7 +77,6 @@
         "lib_footprint_mismatch|184050000|136271000|536eb4bf-441f-4706-9cf4-9d413c6735b9|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|184246667|112789500|b18df711-94c5-4a5e-b640-057acbbbb8f7|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|194310000|57785000|d83e311d-6432-43bb-be81-1ea2b4aaaf01|00000000-0000-0000-0000-000000000000",
-        "starved_thermal|167284400|69527600|48eb15d7-b3cf-42be-b502-2ea438ecfb97|7bc167e6-139b-4128-aa71-fbe37d49d32c|F.Cu",
         "unresolved_variable|182700000|98806000|46bde820-7e1b-465d-aeb3-d39ac718f856|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -703,6 +695,24 @@
           "label": "Purchase",
           "name": "Purchase",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE",
+          "name": "VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TYPE",
+          "name": "TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT",
+          "name": "CURRENT",
+          "show": false
         }
       ],
       "filter_string": "",
