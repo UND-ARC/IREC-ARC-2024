@@ -11142,7 +11142,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5A"
+		(property "Value" "750mA"
 			(at 146.05 184.15 90)
 			(effects
 				(font
