@@ -3902,139 +3902,6 @@
 				)
 			)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -4176,6 +4043,152 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7952,7 +7965,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 187.96) (xy 139.7 187.96)
+			(xy 139.7 187.96) (xy 142.24 187.96)
 		)
 		(stroke
 			(width 0)
@@ -9683,7 +9696,7 @@
 	)
 	(text "!!!WARNING: Using incorrect batteries or power sources may damage electronics!!!"
 		(exclude_from_sim no)
-		(at 100.076 284.48 0)
+		(at 99.822 279.908 0)
 		(effects
 			(font
 				(size 3 3)
@@ -10872,6 +10885,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 85.09 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 85.09 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40c65a25-fb9e-43d2-b8b2-b9ca9191ab62")
 		)
@@ -10969,6 +11000,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 369.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 369.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 369.57 99.06 0)
 			(effects
 				(font
@@ -11125,101 +11174,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 146.05 187.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "096af357-8cb8-4281-8917-a2717ce67314")
-		(property "Reference" "F1"
-			(at 146.05 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "750mA"
-			(at 146.05 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 146.05 189.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 146.05 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CURRENT" ""
-			(at 146.05 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYPE" ""
-			(at 146.05 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 146.05 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "566f5ff2-025c-4c6a-8e5b-177bf30a633d")
-		)
-		(pin "2"
-			(uuid "4fc2e84d-2c68-418c-b304-ecb4209ca8df")
-		)
-		(instances
-			(project "VULCAN"
-				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 105.41 104.14 90)
 		(unit 1)
@@ -11299,6 +11253,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 105.41 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 105.41 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
 			(at 105.41 104.14 0)
 			(effects
 				(font
@@ -11478,6 +11450,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a469f34a-ef37-4aa4-8d8d-f0d2750f5a4a")
 		)
@@ -11510,7 +11500,7 @@
 				)
 			)
 		)
-		(property "Value" "AP63357"
+		(property "Value" "AP63357QZV-7"
 			(at 106.68 28.448 0)
 			(effects
 				(font
@@ -11581,6 +11571,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "DigiKey"
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AP63357QZV-7"
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4b585425-a922-4425-905b-adf6fb3297b2")
 		)
@@ -11631,7 +11639,7 @@
 				)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "5.1K"
 			(at 114.3 97.79 0)
 			(effects
 				(font
@@ -11694,6 +11702,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-075K1L"
 			(at 111.76 96.52 0)
 			(effects
 				(font
@@ -11874,6 +11900,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 279.4 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 279.4 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76c75824-18ab-46cf-aa80-e27ddcc3d4c8")
 		)
@@ -11974,7 +12018,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DS18B20"
+		(property "Value" "DS18B20+"
 			(at 31.75 118.1099 0)
 			(effects
 				(font
@@ -12046,6 +12090,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "DigiKey"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DS18B20+"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b37b777-efbc-4a8e-ad85-fab24f096d3d")
 		)
@@ -12081,7 +12143,7 @@
 				)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "5.1K"
 			(at 155.575 106.68 90)
 			(effects
 				(font
@@ -12144,6 +12206,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 155.575 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 155.575 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-075K1L"
 			(at 155.575 104.14 0)
 			(effects
 				(font
@@ -12317,7 +12397,7 @@
 				)
 			)
 		)
-		(property "Value" "DEV-16771"
+		(property "Value" "Teensy 4.1"
 			(at 250.19 25.4 0)
 			(effects
 				(font
@@ -12511,6 +12591,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 250.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "SparkFun"
+			(at 250.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DEV-16996"
 			(at 250.19 78.74 0)
 			(effects
 				(font
@@ -12813,6 +12911,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 381 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 381 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30c0dd20-1b30-4cbd-90bf-3cccbff40c9f")
 		)
@@ -12907,6 +13023,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-07150RL"
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -13011,6 +13145,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 381 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 381 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 381 130.81 0)
 			(effects
 				(font
@@ -13319,6 +13471,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 279.4 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 279.4 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "521d3fd5-b10c-478a-a77a-520613ebc9b5")
 		)
@@ -13416,6 +13586,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 279.4 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 279.4 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 279.4 214.63 0)
 			(effects
 				(font
@@ -13596,6 +13784,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 41.91 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0901471104"
+			(at 41.91 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2856b321-cbfc-4ccf-a10c-fb72f536d267")
 		)
@@ -13707,6 +13913,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "DigiKey"
+			(at 318.77 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-074K7L"
+			(at 318.77 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11119331-df0b-496a-8150-43a0eab12d16")
 		)
@@ -13803,6 +14027,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 238.76 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 238.76 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  OSTTE060104"
 			(at 238.76 203.2 0)
 			(effects
 				(font
@@ -13918,6 +14160,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 102.87 195.58 0)
 			(effects
 				(font
@@ -14089,6 +14349,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 367.03 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 367.03 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 367.03 224.79 0)
 			(effects
 				(font
@@ -14332,6 +14610,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "DigiKey"
+			(at 316.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MAX31850KATB+T"
+			(at 316.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "963950d2-7a64-4257-9e9f-bbb10a92b7e9")
 		)
@@ -14453,6 +14749,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 276.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 276.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2e570c4-39af-4b13-a90d-ec90cdb5a838")
 		)
@@ -14559,6 +14873,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "DigiKey"
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WSHP2818R0500FEA"
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fdb91dd-5b86-4bf2-97fb-bfb46b9cd8a9")
 		)
@@ -14654,6 +14986,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 102.87 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 102.87 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 102.87 184.15 0)
 			(effects
 				(font
@@ -14768,6 +15118,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "DigiKey"
+			(at 196.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-07100KL"
+			(at 196.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f55cab1-2f1e-4f83-97ea-fc993b190d9b")
 		)
@@ -14788,7 +15156,7 @@
 		(at 90.17 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "610d28ac-f9e9-4ac1-84e7-70d9be0ad33b")
@@ -14873,6 +15241,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76b3367d-5ed0-4a57-b93d-ce1be5509b64")
 		)
@@ -14893,7 +15279,7 @@
 		(at 83.82 35.56 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "640bfc07-a36b-48bc-a299-00e8b3d4e951")
@@ -14933,6 +15319,24 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 83.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 83.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 83.82 35.56 0)
 			(effects
 				(font
@@ -15036,6 +15440,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SRN8040TA-6R8M"
 			(at 123.19 43.18 0)
 			(effects
 				(font
@@ -15216,6 +15638,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 41.91 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0901471102"
+			(at 41.91 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7c40feb-7d3f-4a2a-a995-241a0afbb497")
 		)
@@ -15387,6 +15827,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 373.38 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 373.38 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c53bee88-ba00-4da7-9286-a90bc27e22d4")
 		)
@@ -15482,6 +15940,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 316.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 316.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MAX31850KATB+T"
 			(at 316.23 62.23 0)
 			(effects
 				(font
@@ -15622,6 +16098,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "244fed96-2a17-4914-b8fd-c07ea5548d5a")
 		)
@@ -15720,6 +16214,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 196.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 196.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805JR-07300KL"
 			(at 196.85 29.21 0)
 			(effects
 				(font
@@ -15892,6 +16404,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 41.91 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 41.91 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0901471102"
 			(at 41.91 173.99 0)
 			(effects
 				(font
@@ -16204,6 +16734,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 41.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0901471104"
+			(at 41.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05f3b220-11ca-48b4-97ef-0b199c6db4bf")
 		)
@@ -16438,6 +16986,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805JRNPO9BN470"
 			(at 130.81 46.99 0)
 			(effects
 				(font
@@ -16683,6 +17249,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  LT1001CS8#PBF"
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb064206-7564-44fe-a91e-75db6303b758")
 		)
@@ -16797,6 +17381,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 381 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 381 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 381 146.05 0)
 			(effects
 				(font
@@ -16973,6 +17575,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 152.4 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 152.4 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b6e0294c-3544-4c98-a047-6ae34a25ab37")
 		)
@@ -17069,6 +17689,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "DigiKey"
+			(at 139.7 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPHV12-01ETG-C"
+			(at 139.7 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7290b13e-293a-4b2e-92cd-ab037f28fca2")
 		)
@@ -17079,6 +17717,93 @@
 			(project "VULCAN"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 146.05 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bac7955-599c-4ecc-ad78-41f4a2003f29")
+		(property "Reference" "F1"
+			(at 146.05 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500mA"
+			(at 146.05 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 151.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 146.05 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  1206L050/15YR"
+			(at 146.05 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 146.05 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c404c2b-47e3-4381-9b94-880ab490aeb4")
+		)
+		(pin "1"
+			(uuid "bd03fa5e-1d39-446e-9f7f-9beaf87b4760")
+		)
+		(instances
+			(project "VULCAN"
+				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -17239,6 +17964,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f245d38f-44f4-4905-91f4-adf42741ad93")
 		)
@@ -17345,6 +18088,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "DigiKey"
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805JR-07220KL"
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0df0bcf-74df-453c-aa1f-5d0430d1c1b8")
 		)
@@ -17442,6 +18203,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 328.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 328.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-074K7L"
 			(at 328.93 140.97 0)
 			(effects
 				(font
@@ -17622,6 +18401,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "DigiKey"
+			(at 82.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  AZ1117IH-5.0TRG1"
+			(at 82.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e38d6136-b468-47a4-bcab-de8de51930ad")
 		)
@@ -17726,6 +18523,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 46.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 46.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-074K7L"
 			(at 46.99 111.76 0)
 			(effects
 				(font
@@ -17947,6 +18762,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 45.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 45.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMD17-21VGD/TR8"
 			(at 45.72 77.47 0)
 			(effects
 				(font
@@ -18192,6 +19025,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 370.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 370.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "048ccbe3-e230-4d68-a766-53a47fe1b72b")
 		)
@@ -18212,7 +19063,7 @@
 		(at 388.62 140.97 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b262e975-17a1-4074-991a-459c8b24f43d")
@@ -18288,6 +19139,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 388.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 388.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 388.62 140.97 0)
 			(effects
 				(font
@@ -18391,6 +19260,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
 			(at 105.41 88.9 0)
 			(effects
 				(font
@@ -18505,6 +19392,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0901471103"
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f833b002-cca4-44fc-a9da-90e64f42420c")
 		)
@@ -18528,7 +19433,7 @@
 		(at 388.62 146.05 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c08e959a-3c21-41b3-b99e-7d169534b501")
@@ -18604,6 +19509,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 388.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 388.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 388.62 146.05 0)
 			(effects
 				(font
@@ -18777,7 +19700,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT165A"
+		(property "Value" "BAT165AX"
 			(at 157.7975 184.15 0)
 			(effects
 				(font
@@ -18831,6 +19754,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 157.48 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 157.48 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT165AX"
 			(at 157.48 187.96 0)
 			(effects
 				(font
@@ -18943,6 +19884,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 381 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 381 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "881126b3-2344-4a1f-86ca-667993e29f56")
 		)
@@ -18960,7 +19919,7 @@
 		(at 388.62 130.81 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cc111012-7581-4902-94cc-9aff866120ae")
@@ -19036,6 +19995,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 388.62 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 388.62 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 388.62 130.81 0)
 			(effects
 				(font
@@ -19149,6 +20126,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 369.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 369.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "635e6dff-34fb-4f0c-8a1a-3ec9df03fb74")
 		)
@@ -19247,6 +20242,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  1060"
 			(at 181.61 149.86 0)
 			(effects
 				(font
@@ -19478,6 +20491,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "DigiKey"
+			(at 45.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CMD17-21VRD/TR8"
+			(at 45.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "d6880b3a-0479-4f1d-93e5-f002a5fae447")
 		)
@@ -19595,6 +20626,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 83.82 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 83.82 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  MPXV7002DP"
 			(at 83.82 200.66 0)
 			(effects
 				(font
@@ -19824,6 +20873,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 29.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 29.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e9ccf7c-857d-419f-96dd-cb57bb106c10")
 		)
@@ -19921,6 +20988,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 267.97 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 267.97 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  OSTTE060104"
 			(at 267.97 203.2 0)
 			(effects
 				(font
@@ -20027,7 +21112,7 @@
 		(at 388.62 135.89 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d8585097-2e3a-41ac-bba0-5fd67a8f7c25")
@@ -20103,6 +21188,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 388.62 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 388.62 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 388.62 135.89 0)
 			(effects
 				(font
@@ -20215,6 +21318,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" ""
+			(at 381 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 381 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fec1d67-4d63-4e02-8261-b38b2d3130e9")
 		)
@@ -20309,6 +21430,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 102.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 102.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 102.87 208.28 0)
 			(effects
 				(font
@@ -20480,6 +21619,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 360.68 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 360.68 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 360.68 224.79 0)
 			(effects
 				(font
@@ -20724,6 +21881,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "DigiKey"
+			(at 142.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0741K2L"
+			(at 142.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4366b22d-1c7d-4722-9a76-9c0ef106195a")
 		)
@@ -20822,6 +21997,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 316.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 316.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MAX31850KATB+T"
 			(at 316.23 92.71 0)
 			(effects
 				(font
@@ -20954,6 +22147,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 130.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 130.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 130.81 152.4 0)
 			(effects
 				(font
@@ -21097,6 +22308,24 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "Sparkfun"
+			(at 392.43 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " PRT-18704"
+			(at 392.43 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "VULCAN"
 				(path "/1f03189f-a3bb-456a-9a7f-1b3c83fcd6eb"
@@ -21186,6 +22415,24 @@
 			)
 		)
 		(property "VOLTAGE" ""
+			(at 339.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 339.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-074K7L"
 			(at 339.09 140.97 0)
 			(effects
 				(font
