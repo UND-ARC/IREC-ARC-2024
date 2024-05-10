@@ -11055,6 +11055,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1903-1-ND"
+			(at 85.09 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40c65a25-fb9e-43d2-b8b2-b9ca9191ab62")
 		)
@@ -11170,6 +11179,15 @@
 			)
 		)
 		(property "MPN" "CC0805JRX7R9BB104"
+			(at 369.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-1858-1-ND"
 			(at 369.57 99.06 0)
 			(effects
 				(font
@@ -11431,6 +11449,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1.00KCRCT-ND"
+			(at 105.41 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70283e7d-d0c9-439e-a4f0-d8a10a2eead5")
 		)
@@ -11620,6 +11647,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1858-1-ND"
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a469f34a-ef37-4aa4-8d8d-f0d2750f5a4a")
 		)
@@ -11733,6 +11769,15 @@
 			)
 		)
 		(property "MPN" "AP63357QZV-7"
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "31-AP63357QZV-7CT-ND"
 			(at 111.76 53.34 0)
 			(effects
 				(font
@@ -11872,6 +11917,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-075K1L"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-5.10KCRCT-ND"
 			(at 111.76 96.52 0)
 			(effects
 				(font
@@ -12070,6 +12124,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1857-1-ND"
+			(at 279.4 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76c75824-18ab-46cf-aa80-e27ddcc3d4c8")
 		)
@@ -12260,6 +12323,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "DS18B20+-ND"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b37b777-efbc-4a8e-ad85-fab24f096d3d")
 		)
@@ -12376,6 +12448,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-075K1L"
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-5.10KCRCT-ND"
 			(at 156.21 104.14 0)
 			(effects
 				(font
@@ -13201,6 +13282,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-150CRCT-ND"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1a095f6-d718-49fa-8635-7ab002806cd0")
 		)
@@ -13641,6 +13731,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1857-1-ND"
+			(at 279.4 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "521d3fd5-b10c-478a-a77a-520613ebc9b5")
 		)
@@ -13756,6 +13855,15 @@
 			)
 		)
 		(property "MPN" "CC0805JRX7R9BB103"
+			(at 279.4 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-1857-1-ND"
 			(at 279.4 214.63 0)
 			(effects
 				(font
@@ -14040,6 +14148,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "WM14831-ND"
+			(at 41.91 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2856b321-cbfc-4ccf-a10c-fb72f536d267")
 		)
@@ -14169,6 +14286,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-4.70KCRCT-ND"
+			(at 318.77 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11119331-df0b-496a-8150-43a0eab12d16")
 		)
@@ -14283,6 +14409,15 @@
 			)
 		)
 		(property "MPN" "  OSTTE060104"
+			(at 238.76 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "ED2744-ND"
 			(at 238.76 203.2 0)
 			(effects
 				(font
@@ -14416,6 +14551,15 @@
 			)
 		)
 		(property "MPN" "  CC0805JKX7R9BB105"
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-3498-1-ND"
 			(at 102.87 195.58 0)
 			(effects
 				(font
@@ -14866,6 +15010,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "MAX31850KATB+TCT-ND"
+			(at 316.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "963950d2-7a64-4257-9e9f-bbb10a92b7e9")
 		)
@@ -15017,6 +15170,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "541-3281-1-ND"
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fdb91dd-5b86-4bf2-97fb-bfb46b9cd8a9")
 		)
@@ -15130,6 +15292,15 @@
 			)
 		)
 		(property "MPN" "CC0805JRX7R9BB103"
+			(at 102.87 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-1857-1-ND"
 			(at 102.87 184.15 0)
 			(effects
 				(font
@@ -15254,6 +15425,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-07100KL"
+			(at 196.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-100KCRCT-ND"
 			(at 196.85 41.91 0)
 			(effects
 				(font
@@ -15592,6 +15772,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "SRN8040TA-6R8MCT-ND"
+			(at 123.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "627a3e47-b0d0-4558-b157-5ef8805ecfdb")
 		)
@@ -15774,6 +15963,15 @@
 			)
 		)
 		(property "MPN" "0901471102"
+			(at 41.91 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "WM23663-ND"
 			(at 41.91 165.1 0)
 			(effects
 				(font
@@ -16092,6 +16290,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "MAX31850KATB+TCT-ND"
+			(at 316.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "63f5a321-acfb-46f3-a320-df5b922c0ac3")
 		)
@@ -16242,6 +16449,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1903-1-ND"
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "244fed96-2a17-4914-b8fd-c07ea5548d5a")
 		)
@@ -16358,6 +16574,15 @@
 			)
 		)
 		(property "MPN" "RC0805JR-07300KL"
+			(at 196.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-300KARCT-ND"
 			(at 196.85 29.21 0)
 			(effects
 				(font
@@ -16548,6 +16773,15 @@
 			)
 		)
 		(property "MPN" "0901471102"
+			(at 41.91 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "WM23663-ND"
 			(at 41.91 173.99 0)
 			(effects
 				(font
@@ -16878,6 +17112,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "WM14831-ND"
+			(at 41.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05f3b220-11ca-48b4-97ef-0b199c6db4bf")
 		)
@@ -17138,6 +17381,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1107-1-ND"
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b495e9fd-25a7-46ae-b309-27ce039928e8")
 		)
@@ -17385,6 +17637,15 @@
 			)
 		)
 		(property "MPN" "  LT1001CS8#PBF"
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "505-LT1001CS8#PBF-ND"
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -17653,6 +17914,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1903-1-ND"
+			(at 152.4 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b6e0294c-3544-4c98-a047-6ae34a25ab37")
 		)
@@ -17767,6 +18037,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "F6505CT-ND"
+			(at 139.7 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7290b13e-293a-4b2e-92cd-ab037f28fca2")
 		)
@@ -17846,6 +18125,15 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
+			(at 146.05 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "F3733CT-ND"
 			(at 146.05 187.96 0)
 			(effects
 				(font
@@ -18042,6 +18330,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1869-1-ND"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f245d38f-44f4-4905-91f4-adf42741ad93")
 		)
@@ -18166,6 +18463,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-220KARCT-ND"
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0df0bcf-74df-453c-aa1f-5d0430d1c1b8")
 		)
@@ -18281,6 +18587,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-074K7L"
+			(at 328.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-4.70KCRCT-ND"
 			(at 328.93 140.97 0)
 			(effects
 				(font
@@ -18479,6 +18794,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "AZ1117IH-5.0TRG1DICT-ND"
+			(at 82.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e38d6136-b468-47a4-bcab-de8de51930ad")
 		)
@@ -18601,6 +18925,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-074K7L"
+			(at 46.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-4.70KCRCT-ND"
 			(at 46.99 111.76 0)
 			(effects
 				(font
@@ -18746,7 +19079,7 @@
 				(hide yes)
 			)
 		)
-		(property "DKPN" "475-1278-1-ND"
+		(property "DKPN" "L62505CT-ND"
 			(at 45.72 73.66 0)
 			(effects
 				(font
@@ -19103,6 +19436,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1858-1-ND"
+			(at 370.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "048ccbe3-e230-4d68-a766-53a47fe1b72b")
 		)
@@ -19346,6 +19688,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1.00KCRCT-ND"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d802a5e5-7e73-4342-91b9-c186d7dbfdec")
 		)
@@ -19462,6 +19813,15 @@
 			)
 		)
 		(property "MPN" "0901471103"
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "WM14830-ND"
 			(at 41.91 184.15 0)
 			(effects
 				(font
@@ -19840,6 +20200,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "1727-2752-1-ND"
+			(at 157.48 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30e6d8a2-3415-4a2b-8941-52e3f565e7bb")
 		)
@@ -20204,6 +20573,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1858-1-ND"
+			(at 369.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "635e6dff-34fb-4f0c-8a1a-3ec9df03fb74")
 		)
@@ -20320,6 +20698,15 @@
 			)
 		)
 		(property "MPN" "  1060"
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "36-1060-ND"
 			(at 181.61 149.86 0)
 			(effects
 				(font
@@ -20466,7 +20853,7 @@
 				(hide yes)
 			)
 		)
-		(property "DKPN" "475-1278-1-ND"
+		(property "DKPN" "L62501CT-ND"
 			(at 45.72 62.23 0)
 			(effects
 				(font
@@ -20704,6 +21091,15 @@
 			)
 		)
 		(property "MPN" "  MPXV7002DP"
+			(at 83.82 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "MPXV7002DP-ND"
 			(at 83.82 200.66 0)
 			(effects
 				(font
@@ -21066,6 +21462,15 @@
 			)
 		)
 		(property "MPN" "  OSTTE060104"
+			(at 267.97 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "ED2744-ND"
 			(at 267.97 203.2 0)
 			(effects
 				(font
@@ -21508,6 +21913,15 @@
 			)
 		)
 		(property "MPN" "CC0805JRNPO9BN471"
+			(at 102.87 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-1119-1-ND"
 			(at 102.87 208.28 0)
 			(effects
 				(font
@@ -21959,6 +22373,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-41.2KCRCT-ND"
+			(at 142.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4366b22d-1c7d-4722-9a76-9c0ef106195a")
 		)
@@ -22075,6 +22498,15 @@
 			)
 		)
 		(property "MPN" "MAX31850KATB+T"
+			(at 316.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "MAX31850KATB+TCT-ND"
 			(at 316.23 92.71 0)
 			(effects
 				(font
@@ -22233,6 +22665,15 @@
 				(hide yes)
 			)
 		)
+		(property "DKPN" "311-1869-1-ND"
+			(at 130.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2362a240-e33a-4ca2-8676-f15c6fc0505d")
 		)
@@ -22337,6 +22778,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-0762RL"
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-62.0CRCT-ND"
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -22605,6 +23055,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-074K7L"
+			(at 339.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "311-4.70KCRCT-ND"
 			(at 339.09 140.97 0)
 			(effects
 				(font

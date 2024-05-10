@@ -73,7 +73,6 @@
         "lib_footprint_mismatch|181102000|94805500|9545237c-1f41-467d-9992-b97f1fd4a4d7|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|184050000|136271000|536eb4bf-441f-4706-9cf4-9d413c6735b9|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|184246667|112789500|b18df711-94c5-4a5e-b640-057acbbbb8f7|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|194820000|57785000|d83e311d-6432-43bb-be81-1ea2b4aaaf01|00000000-0000-0000-0000-000000000000",
         "silk_overlap|159964000|86614000|b883a8fa-01c0-4213-ba42-863d98fa4c39|e70ce8be-3db0-4365-97f4-081013bf5ac6",
         "silk_overlap|159964000|93472000|b883a8fa-01c0-4213-ba42-863d98fa4c39|91f1ff07-01fc-4294-a1a4-7f0d8410d9ff",
         "silk_overlap|208229200|85344000|aaa736d4-ddd0-48e8-9525-476c3198569a|3ebaf541-3309-49bd-81fe-2e14bd3b95e4",
@@ -684,7 +683,7 @@
             "group_by": false,
             "label": "DKPN",
             "name": "DKPN",
-            "show": false
+            "show": true
           },
           {
             "group_by": false,
@@ -738,8 +737,8 @@
         "filter_string": "",
         "group_symbols": true,
         "name": "DigiKey File Mapping",
-        "sort_asc": false,
-        "sort_field": "${ITEM_NUMBER}"
+        "sort_asc": true,
+        "sort_field": "MPN"
       }
     ],
     "bom_settings": {
@@ -881,7 +880,7 @@
           "group_by": false,
           "label": "DKPN",
           "name": "DKPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -935,8 +934,8 @@
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "${ITEM_NUMBER}"
+      "sort_asc": true,
+      "sort_field": "MPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {
