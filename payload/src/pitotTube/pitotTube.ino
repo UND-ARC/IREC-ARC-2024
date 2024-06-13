@@ -24,7 +24,7 @@ void loop() {
   
 // average a few ADC readings for stability
   for (int ii=0;ii<veloc_mean_size;ii++){
-    adc_avg+= analogRead(A0)-offset;
+    adc_avg+= analogRead(17)-offset;
   }
   adc_avg/=veloc_mean_size;
   
